@@ -1,0 +1,57 @@
+---
+date: '2012-01-29 20:49:45'
+layout: post
+slug: education-2-0
+status: publish
+title: Education 2.0
+wordpress_id: '966'
+categories:
+- science
+- technology
+- thoughts
+tags:
+- education
+- internet
+- science
+- technology
+- thoughts
+- web
+---
+
+It's likely that a new tipping point of the new style of education -- including teaching and studying -- is coming.
+
+[Education]( http://en.wikipedia.org/wiki/Portal:Education), encompasses teaching and learning specific skills, and something less tangible but more profound: the imparting of knowledge, good judgment, and wisdom. It's important to focus on and improve the way of interact between teaching and studying. It's obvious that how students absorb the knowledge and raise their curiosity determine the result of the process. Here I mainly discuss the narrow sense of education. which usually means the process of acquiring the knowledge of science, literature, etc, usually in schools.
+
+Accepting education (in schools) is relevant to [opportunity cost](http://en.wikipedia.org/wiki/Opportunity_cost). The time is always limited and the process is not always pleasing. What's even frustrating, so many people can't offer the cost of entering schools, so that they have to work "in advance".
+
+Now online education is becoming popular. Maybe it provides more opportunities to poor man and those have limited condition to enter the famous universities.
+
+Till now, education level has been developed by Internet greatly. Researching is enjoying the convenience of the super high speed and large volume of information data. Searching and creating data with the help of Internet is easier than ever. However, education focus more on the interaction of teaching and studying, as well as the creativity, rather than just researching. n this aspect, open course bring great impact, for example, some universities, such as Harvard, [MIT](http://ocw.mit.edu/index.htm), Stanford, and more, has released their video and/or presentation online. Some websites, such as [netease open courses](http://open.163.com/), have gathered and translated, and spread these online resources greatly. What's more, there are [some](http://www.class-central.com/) online courses available, such as Stanford's [Coursera](http://www.cs101-class.org/hub.php), MIT's [MITx](http://mitx.mit.edu/), and [Udacity](http://www.udacity.com/).
+
+But it's not enough. In essence, they are just putting the media online, not deeply taking advantages of Internet -- connecting and interacting with people much easier.
+
+Education 2.0, with the help of web 2.0, is the key and next revolution in education and society, in my opinion.
+
+What's it? The answer may hides in (inconspicuous) places: Wikipedia, and github.
+
+Have a look inside [Wikipedia](http://en.wikipedia.org/), the free encyclopedia. [Launched in 2001](http://en.wikipedia.org/wiki/History_of_Wikipedia), Wikipedia has formed the largest online encyclopedia, with high quality, great authority and high page rank (which reflects how websites rely on it). In fact, The English Wikipedia passed 100,000 articles in 2003, a great and incredible success. Such a great increase of articles tells people that they had just waited for it for a long time. It's a masterpiece by billions of net users, reflecting how great work can be done by the power of self-organization of the [combination of the elite and the crowd](http://edouard-lopez.com/fac/ICPS%20-%20S7/Complexit%C3%A9/2008-Wikipedia-As-A-Complex-System/Power%20of%20the%20Few%20vs.%20Wisdom%20of%20the%20Crowd:%20Wikipedia%20and%20the%20Rise%20of%20the%20Bourgeoisie.pdf).
+
+Essentially, Wikipedia shows the desire to share and curiosity about knowledge. A virtuous cycle formed fortunately and is functioning smoothly till now. A simple way of editing and discussing, and the nature as a creature of "web 2.0" may explain its success.
+
+Now observe [github](https://github.com/), subtitled "social coding", another cool web-2.0 website, poplar among programmers. In similar to the growing process of Wikipedia, it enjoyed a great increase. [launched in April 2008](https://github.com/blog/40-we-launched), it hosted about 46,000 repositories just in the first year! By now (Jan. 2012), over 3,800,000  git repositories are enjoying the platform. [Github is your new resume.](http://code.dblock.org/github-is-your-new-resume) It's possible to create a reliable and informative resume with the help of github and books [in 2 years](http://mindhacks.cn/2011/11/04/how-to-interview-a-person-for-two-years/). There are real project, cool guys, people with the same interests, and [here comes everybody](http://www.amazon.com/Here-Comes-Everybody-Organizing-Organizations/dp/1594201536/).
+
+The most powerful innovation of github should be "social". One can "follow" another developer or "watch" a project, while at the same time "fork it" and "send pull request" have become the "culture" among the users.
+
+So what's the business of education?
+
+Self-organization, happy collaborative work, creativity, and study process as a resume. A platform, (called "Wikihub" if I create it :-),) taking advantages of Wikipedia and github, should have the above advantages and features, and lead the revolution of education, named "education 2.0.
+
+Education 2.0 should be benefited by self-organization. Both Wikipedia and github illustrate that self-organization also work and work even better. Students just don't know what they will go at the beginning, but actually discover what they want later.
+
+Education 2.0 includes happy collaborative work. 1+1 > 2. Twitter and Facebook prove that all the "tiny" behavior may effect on "big" result and incredible destination, which attract and [confuse](http://www.amazon.com/Everything-Obvious-Once-Know-Answer/dp/0385531680/) social researchers a lot. An appropriate platform allowing students to study what they are really interested in may drive our society to new ways. Because they are interested in, so they are fond of and realize the necessity of learning other knowledge that they don't pay attention to before.
+
+Education 2.0 enjoys the advantages brought by creativity. Unlimited and uninformed in advance may promote creativity, one of the most important power of society. But it should be noted that creativity relies on the knowledge base. So in some case and at some stage, teachers and other leading students should provide tips and hints and help to their fellows.
+
+Education 2.0 lightens, if not solves, the conflict between study and work. Github notes down users' operations and growth, and projects are for real world, instead of "not being practical". When students end the education, they get resumes automatically.
+
+This article is just about a summary and a prediction. Whatever, Internet has changed our life, and it will surely change the style of education. The tendency shows that another tipping point is near, maybe before 2016 we can see and create the tide.

@@ -1,0 +1,88 @@
+---
+date: '2010-12-31 13:33:41'
+layout: post
+slug: jenn3d
+status: publish
+title: Jenn3d,an amazing software
+wordpress_id: '442'
+categories:
+- interesting
+tags:
+- install
+- interesting
+- jenn 3d
+- programming
+- software
+---
+
+[http://www.math.cmu.edu/~fho/jenn/](http://www.math.cmu.edu/~fho/jenn/)
+
+The software is amazing.
+
+Here is the steps to install it in ubuntu 10.04
+
+(thanks to [http://students.wmi.amu.edu.pl/~s301428/blog/?p=25#more-25](http://students.wmi.amu.edu.pl/~s301428/blog/?p=25#more-25))
+
+command:
+
+[sourcecode language="bash"]
+
+sudo apt-get install build-essential freeglut3-dev libpng-dev
+
+wget -c http://www.math.cmu.edu/~fho/jenn/jenn3d.2008_03_13.tgz
+
+tar -xzf  jenn.2008_03_13.tgz
+
+cd jenn3d
+
+vim makefile
+
+[/sourcecode]
+
+uncomment the line
+
+[sourcecode language="text"]
+
+COMPILE_TYPE = linux
+
+[/sourcecode]
+
+command:
+
+[sourcecode language="bash"]
+
+:wq
+
+vim definitions.h
+
+[/sourcecode]
+
+add these at the beginning:
+
+[sourcecode language="text"]
+
+#include <stdlib.h>
+#include <string.h>
+#include <algorithm>
+
+[/sourcecode]
+
+command:
+
+[sourcecode language="bash"]
+
+:wq
+
+make
+
+./jenn
+
+[/sourcecode]
+
+And then just have fun!
+
+Here is another one in which you can play Go in projective 3-space,
+
+[http://www.math.cmu.edu/~fho/jenn/jenngo.2006_08_04.tgz](http://www.math.cmu.edu/~fho/jenn/jenngo.2006_08_04.tgz)
+
+It is quite difficult!
