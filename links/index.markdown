@@ -54,7 +54,7 @@ Here are some useful links:
 - [ TechCrunch](http://www.techcrunch.com/): A network of technology focused sites  offering a wide range of content and new media.
 - [ TopLanguage](https://groups.google.com/group/pongba): 一个综合技术讨论组
 - [ Ubuntu](http://www.ubuntu.com/): Super-fast and great-looking, Ubuntu is a  secure, intuitive operating system.
-- [ Wolfram|Alpha](http://www.wolframalpha.com): Computational knowledge engine.
+- [ Wolfram\|Alpha](http://www.wolframalpha.com): Computational knowledge engine.
 - [ WordPress](http://wordpress.org/): WordPress is a state-of-the-art  publishing platform with a focus on aesthetics, web standards, and  usability.
 - [ WPG](http://wpg.im/):  A Chinese WordPress Group, A Life Long Film.
 
