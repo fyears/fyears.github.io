@@ -12,6 +12,4 @@ tags:
 - life
 ---
 
-[latex]life=int_{birth}^{death} (hope+despair) d(time)[/latex]
-
-
+$$ life=\int_{birth}^{death} (hope+despair) d(time) $$
