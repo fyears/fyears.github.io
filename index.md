@@ -1,5 +1,6 @@
 ---
-title: Fleeting years bright the life. // 流光溢彩，年华转逝。
+title: fleeting years
+sub_title: Fleeting years bright the life. // 流光溢彩，年华转逝。
 layout: page
 ---
 
