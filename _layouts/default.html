@@ -5,10 +5,13 @@
     <meta name="author" content="{{ site.author }}" />
     <title>{{ page.title }}</title>
     <link rel="shortcut icon" href="/favicon.ico">
-    <link href="{{ site.url }}/feed/" type="application/rss+xml" rel="alternate" title="{{ site.name }}" />
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/highlight.css">
-    <script type="text/javascript" src="/assets/js/jquery-1.7.1.min.js"></script>
+    <link rel="canonical" href="{{ site.url }}{{ page.url | canonical | replace:'index.html','' }}" />
+    <link rel="alternate" href="{{ site.url }}/feed/" type="application/rss+xml" title="{{ site.name }}" />
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/style.css">
+    <link rel="stylesheet" href="http://yandex.st/highlightjs/6.2/styles/github.min.css">
+    <!--<link rel="stylesheet" href="{{ baseurl }}/assets/css/highlight.css">-->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <!--<script type="text/javascript" src="{{ baseurl }}/assets/js/jquery-1.7.1.min.js"></script>-->
   </head>
   <body>
     <div id="container">
@@ -34,7 +37,8 @@
       </div>
     </div>
     <!--{% include google-analytics.html %}-->
-    <script type="text/javascript" src="/assets/js/highlight.min.js"></script>
+    <script type="text/javascript" src="http://yandex.st/highlightjs/6.2/highlight.min.js"></script>
+    <!--<script type="text/javascript" src="{{ site.url }}/assets/js/highlight.min.js"></script>-->
     <script>
   hljs.tabReplace = '    ';
   hljs.initHighlightingOnLoad();

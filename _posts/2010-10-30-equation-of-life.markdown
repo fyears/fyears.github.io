@@ -12,4 +12,6 @@ tags:
 - life
 ---
 
+The life is full of hopeness and despair.
+
 $$ life=\int_{birth}^{death} (hope+despair) d(time) $$
