@@ -10,7 +10,11 @@ layout: rss-feed
 		{% for post in site.posts limit:10 %}
 			<item>
 				<title>{{ post.title }}</title>
-				<description>{{ post.content | xml_escape }}</description>
+				<description>
+					{{ post.content | xml_escape }}
+					&lt;p&gt;&lt;em&gt;Notice: LATEX contents and embedded gists may not display properly in rss readers.
+					 Please visit &lt;a href="{{ site.url }}{{ post.url }}"&gt;original post&lt;/a&gt; for best experience.&lt;/em&gt;&lt;/p&gt;
+					</description>
 				<published>{{ post.date }}</published>
 				<link>{{ site.url }}{{ post.url }}</link>
 			</item>

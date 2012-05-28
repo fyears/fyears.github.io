@@ -4,7 +4,6 @@ layout: post
 slug: if-flash-is-open-source
 status: publish
 title: if Flash is open source.....
-wordpress_id: '976'
 categories:
 - technology
 - thoughts

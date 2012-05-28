@@ -40,5 +40,3 @@ As a matter of fact, relativity is considered the top of "classical physics", an
 Newton's theory combines things on the earth and in the sky; relativity explains almost all macro circumstances; quantum mechanics almost conquers the micro area. Hopefully some revolution can bring us the ulimate secret of our world.
 
 Maybe one day, our names will be carved on the memorial, for future people's praise.
-
-[gallery] 
