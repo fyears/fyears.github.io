@@ -36,24 +36,32 @@ layout: default
 {% endif %}
 </section>
 {% include comments.html %}
+<script type="text/javascript" src="{{ site.url }}/assets/js/mousetrap.min.js"></script>
 <script type="text/javascript">
-$(function(){
-  $(document).keydown(function(e) {
-    var url = false;
-        if (e.which == 37 || e.which == 74) {  // Left arrow and J
-            {% if page.previous %}
-        url = '{{ site.url }}{{ page.previous.url }}';
-        {% endif %}
-        }
-        else if (e.which == 39 || e.which == 75) {  // Right arrow and K
-            {% if page.next %}
-        url = '{{ site.url }}{{ page.next.url }}';
-        {% endif %}
-        }
-        if (url) {
-            window.location = url;
-        }
+  Mousetrap.bind('k', function() {
+    {% if page.previous %}
+      url = '{{ site.url }}{{ page.previous.url }}';
+    {% endif %}
+    if (url) {
+      window.location = url;
+    }
   });
-})
+  Mousetrap.bind('j', function() {
+    {% if page.next %}
+      url = '{{ site.url }}{{ page.next.url }}';
+    {% endif %}
+    if (url) {
+      window.location = url;
+    }
+  });
+  Mousetrap.bind(['g h', 'g a'], function() {
+    window.location = '{{ site.url }}/';
+  });
+  Mousetrap.bind('r', function() {
+    window.location.reload(true);
+  });
+  Mousetrap.bind('up up down down left right left right b a enter', function() {
+    window.location = '{{ site.url }}/end/';
+  });
 </script>
 
