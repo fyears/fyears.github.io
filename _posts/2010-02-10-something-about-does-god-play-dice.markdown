@@ -24,12 +24,12 @@ The excellent [book](http://vip.book.sina.com.cn/book/index_37395.html) was writ
 
 
 Max Planck put forward Planck's law to explain the full spectrum of thermal radiation.
-Albert Einstein explained the photoelectric effect. $latex E = h nu$
+Albert Einstein explained the photoelectric effect. $E = h nu$
 Niels Bohr proposed a new model of the atom which included quantized electron orbits.
-Louis de Broglie put forward his theory of matter waves by stating that particles can exhibit wave characteristics and vice versa. $latex lambda = frac{h}{p}$
+Louis de Broglie put forward his theory of matter waves by stating that particles can exhibit wave characteristics and vice versa. $\lambda = \frac{h}{p}$
 Werner Heisenberg and Max Boren and Pascual Jordan put forward the idea about matrix mechanics, the first explanation to quantum mechanics.
 Erwin Schrödinger made up his Schrödinger wave equation, the second explanation to quantum mechanics.
-Heisenberg clarified Heisenberg uncertainty principle. $latex Delta X Delta P ge {hbar over 2}$
+Heisenberg clarified Heisenberg uncertainty principle. $ \sigma\_{x}\sigma\_{p} \geq \frac{\hbar}{2}$
 Wolfgang Pauli proposed the Pauli exclusion principle.
 Paul Dirac produced a relativistic quantum theory of electromagnetism.
 
