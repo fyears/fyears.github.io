@@ -151,4 +151,5 @@ http://data.un.org/Default.aspx  # data from UN
 http://www-958.ibm.com/software/data/cognos/manyeyes/datasets  # data sets from IBM
 http://aws.amazon.com/datasets  # public data sets on AWS, big, including data from 1000 Genomes Project
 http://snap.stanford.edu/data/  # Stanford Large Network Dataset Collection
+http://archive.ics.uci.edu/ml/  # UC Irvine Machine Learning Repository
 ~~~~
