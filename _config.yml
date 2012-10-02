@@ -8,7 +8,7 @@ url: http://www.fyears.org
 prose:
   rooturl: ""
   metadata: 
-    "_posts/": |
+    "_posts": |
       published: false
       layout: post
       title: ""
