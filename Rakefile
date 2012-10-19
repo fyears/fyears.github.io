@@ -89,7 +89,7 @@ end # task :page
 
 desc "Launch preview environment"
 task :preview do
-  system "jekyll --auto --server"
+  system "jekyll --auto --server --safe --url ''"
 end # task :preview
 
 def ask(message, valid_options)
