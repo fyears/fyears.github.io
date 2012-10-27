@@ -3,7 +3,7 @@ title: fleeting years
 sub_title: Fleeting years bright the life. // 流光溢彩，年华转逝。
 layout: page
 ---
-<div class="container-fluid">
+<div class="row-fluid">
   <div class="span2"></div>
   <div class="span8">
     <ul class="listing">

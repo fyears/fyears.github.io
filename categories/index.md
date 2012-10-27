@@ -2,7 +2,7 @@
 title: Categories
 layout: page
 ---
-<div class="container-fluid">
+<div class="row-fluid">
   <div class="span2"></div>
   <div class="span8">
     <div id='tag_cloud'>
