@@ -4,7 +4,7 @@ layout: post
 title: "已经不见，不要怀念"
 abstract: ""
 description: ""
-category: 
+category:
 - C'est La Vie
 - diary
 - literature
