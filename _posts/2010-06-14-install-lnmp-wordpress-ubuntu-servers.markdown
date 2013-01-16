@@ -280,11 +280,11 @@ cd /root/
 nano /usr/local/nginx/conf/vhost/www.fyears.org.conf
 #I added these lines to the beginning of the file (before"server ......"):
 server
-	{
-		listen       80;
-		server_name fyears.org;
-                rewrite ^(.*) http://www.fyears.org$1 permanent;
-        }
+{
+	listen       80;
+	server_name fyears.org;
+	rewrite ^(.*) http://www.fyears.org$1 permanent;
+}
 #I saved the file, then:
 kill -HUP `cat /usr/local/nginx/logs/nginx.pid`
 #However, if you installed apache too, you should not edit this. but just add a .htaccesss file in the root of your website:
