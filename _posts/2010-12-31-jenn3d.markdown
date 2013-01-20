@@ -25,59 +25,42 @@ Here is the steps to install it in ubuntu 10.04
 
 command:
 
-[sourcecode language="bash"]
-
+``` bash
 sudo apt-get install build-essential freeglut3-dev libpng-dev
-
 wget -c http://www.math.cmu.edu/~fho/jenn/jenn3d.2008_03_13.tgz
-
 tar -xzf  jenn.2008_03_13.tgz
-
 cd jenn3d
-
 vim makefile
-
-[/sourcecode]
+```
 
 uncomment the line
 
-[sourcecode language="text"]
-
+```
 COMPILE_TYPE = linux
-
-[/sourcecode]
+```
 
 command:
 
-[sourcecode language="bash"]
-
+``` bash
 :wq
-
 vim definitions.h
-
-[/sourcecode]
+```
 
 add these at the beginning:
 
-[sourcecode language="text"]
-
+```
 #include <stdlib.h>
 #include <string.h>
 #include <algorithm>
-
-[/sourcecode]
+```
 
 command:
 
-[sourcecode language="bash"]
-
+~~~ bash
 :wq
-
 make
-
 ./jenn
-
-[/sourcecode]
+~~~
 
 And then just have fun!
 

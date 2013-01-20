@@ -29,7 +29,7 @@ The system of my vps is Ubuntu 10.04, 32bits.
 
 Thanks to the auto tools from [lnmp.org](http://lnmp.org) (the website is written in Simplified Chinese) .
 
-<pre><code>
+``` bash
 #ssh as root
 ssh root@[ip] -p 22
 apt-get autoremove apache2 mysql-server mysql-server-5.0 php5
@@ -313,7 +313,7 @@ cd ~
 #configure the wodpress
 exit ##exit sudo -s
 exit ##exit ssh
-</code></pre>
+```
 
 Enjoy!
 
