@@ -3,7 +3,7 @@ permalink: /:year/:month/:title/
 author: fyears
 name: Fleeting Years
 description: Fleeting years bright the life. // 流光溢彩，年华转逝。
-url: //www.fyears.org
+url: http://www.fyears.org
 
 prose:
   rooturl: ""
