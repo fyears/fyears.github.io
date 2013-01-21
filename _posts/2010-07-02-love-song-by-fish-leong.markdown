@@ -17,12 +17,11 @@ tags:
 
 Fish Leong, 梁静茹, known as "the Queen of Love Songs", is famous for her special attractions in her songs.
 
-
-
 Fish Leong is my favourite singer, without "one of", I can say. In fact, the first time I heard her song, I felt that something touched my heart, which is in the deepest place. [Here](http://www.fishleong.com.tw/) is her official website, and [here](http://en.wikipedia.org/wiki/Fish_Leong) is the introduction.
 
 I love many of her songs, though not all. And I love "Love Song"("情歌") from the album "Fall in Love & Songs"("靜茹＆情歌-別再為他流淚") the most till now.
-`
+
+```
 [00:01.01]情歌.lrc
 [00:09.09]"Love Song"("情歌")
 [00:18.18]from the album "Fall in Love & Songs"("靜茹＆情歌-別再為他流淚")
@@ -67,4 +66,5 @@ I love many of her songs, though not all. And I love "Love Song"("情歌") from 
 [03:48.34]還好我有 我下一首情歌
 [03:54.07]生命宛如 靜靜的 相擁的河
 [03:58.98]永遠 天長地久
-[04:06.97]`
+[04:06.97]
+```

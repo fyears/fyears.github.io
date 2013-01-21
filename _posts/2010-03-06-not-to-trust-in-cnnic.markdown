@@ -14,7 +14,7 @@ Do not trust in the certificates from CNNIC!
 
 Here is the solution in Ubuntu/Debian, which should work for Firefox 3.6 & Chrome & Wget & cURL:
 
-<pre><code>
+~~~~
 sudo rm /usr/share/ca-certificates/mozilla/Entrust.net_Secure_Server_CA.crt
 sudo dpkg-reconfigure ca-certificates
 #unselect mozilla/Entrust.net_Secure_Server_CA.crt
@@ -55,7 +55,6 @@ certutil -d sql:$HOME/.pki/nssdb -L
 
 rm ~/CNNIC.7z
 rm -r ~/CNNIC
-
-</code></pre>
+~~~~
 
 Thanks to [Linuxtoy](http://linuxtoy.org/archives/ca-certificate-problem.html), [Felix](http://felixcat.net/2010/01/throw-out-cnnic/), [Rex](http://people.debian.org.tw/~chihchun/2010/02/02/remove-cnnic-cert-on-linux/), and other network people.
