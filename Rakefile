@@ -89,7 +89,7 @@ end # task :page
 
 desc "Launch preview environment"
 task :preview do
-  system "jekyll --auto --server --no-lsi --safe --url ''"
+  system "jekyll serve --watch --config _config.yml,_config-dev.yml"
 end # task :preview
 
 def ask(message, valid_options)
