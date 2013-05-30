@@ -1,74 +1,31 @@
----
-layout: default
----
-<div class="row-fluid">
-  <div class="span2"></div>
-  <div class="span8">
-    <section class="post">
-    {{ content }}
-    </section>
-    <hr class="bs-docs-separator" />
-    <section class="meta">
-    <span class="author">
-      <a href="{{ site.url }}">{{ site.author }}</a>
-    </span>
-    <span class="time">
-      <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y-%m-%d" }}</time>
-    </span>
-    <br />
-    <span class="license">
-      Published under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">(CC) BY-NC-SA</a>
-    </span>
-    {% if page.categories %}
-    <br />
-    <span class="categories">
-      in categories
-      {% for cat in page.categories %}
-      <a href="{{ site.url }}/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
-      {% endfor %}
-    </span>
-    {% endif %}
-    {% if page.tags %}
-    <br />
-    <span class="tags">
-      tagged with 
-      {% for tag in page.tags %}
-      <a href="{{ site.url }}/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>&nbsp;
-      {% endfor %}
-    </span>
-    {% endif %}
-    </section>
-    <hr class="bs-docs-separator" />
-    {% include comments.html %}
-  </div>
-  <div class="span2"></div>
-</div>
-<script type="text/javascript" src="{{ site.url }}/assets/js/mousetrap.min.js"></script>
-<script type="text/javascript">
-  Mousetrap.bind('k', function() {
-    {% if page.previous %}
-      url = '{{ site.url }}{{ page.previous.url }}';
-    {% endif %}
-    if (url) {
-      window.location = url;
-    }
-  });
-  Mousetrap.bind('j', function() {
-    {% if page.next %}
-      url = '{{ site.url }}{{ page.next.url }}';
-    {% endif %}
-    if (url) {
-      window.location = url;
-    }
-  });
-  Mousetrap.bind(['g h', 'g a'], function() {
-    window.location = '{{ site.url }}/';
-  });
-  Mousetrap.bind('r', function() {
-    window.location.reload(true);
-  });
-  Mousetrap.bind('up up down down left right left right b a enter', function() {
-    window.location = '{{ site.url }}/end/';
-  });
-</script>
-
+<html>
+  <head>
+    <meta content='{{ page.title }} - {{ site.title }}' property='og:title' />
+    <title>{{ page.title }} - {{ site.title }}</title>
+    {% include head.html %}
+  </head>
+  <body>
+    {% include header.html %}
+    <div id='container'>
+      {% include links.html %}
+      
+      <div class="content">
+        <section class='post'>
+          <h1 class="upcase">
+            <div class='date'>{{ page.date | date_to_string }}</div>
+            {{ page.title }}
+          </h1>
+          {{ content }}
+          {% include signoff.html %}
+        </section>
+      </div>
+      {% if page.share == 'y' %}
+        {% include share.html %}
+      {% endif %}
+      {% include disqus.html %}
+      {% include links.html %}
+      {% include pages.html %}
+    </div>
+    {% include footer.html %}
+  </body>
+</html>

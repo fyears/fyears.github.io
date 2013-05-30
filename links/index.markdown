@@ -1,6 +1,6 @@
 ---
 date: '2010-06-21 22:58:23'
-layout: post
+layout: page
 slug: links
 status: publish
 title: Links

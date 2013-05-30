@@ -6,9 +6,26 @@ exclude: []
 
 permalink: /:year/:month/:title/
 author: fyears
-name: Fleeting Years
+title: Fleeting Years
 description: Fleeting years bright the life. // 流光溢彩，年华转逝。
 url: http://www.fyears.org
+signoff: fyears
+disqus_shortname: fyears
+google_analytics:
+
+links:
+  - name:         Blog
+    url:          /
+  - name:         About
+    url:          /about/
+  - name:         Categories
+    url:          /categories/
+  - name:         Tags
+    url:          /tags/
+  - name:         Links
+    url:          /links/
+  - name:         Feed
+    url:          /feed/
 
 markdown: redcarpet
 safe: true
