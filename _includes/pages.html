@@ -1,14 +1,14 @@
 <section class="paging">
   {% if page.next %}
     <div class="left">
-      <a href="{{page.next.url}}">
+      <a href="{{ site.url }}{{ site.baseurl }}{{ page.next.url }}">
         ‹
       </a>
     </div>
   {% endif %}
   {% if page.previous %}
     <div class="right">
-      <a href="{{ page.previous.url }}">
+      <a href="{{ site.url }}{{ site.baseurl }}{{ page.previous.url }}">
         ›
       </a>
     </div>
@@ -19,7 +19,7 @@
 <script type="text/javascript">
   Mousetrap.bind('k', function() {
     {% if page.previous %}
-      url = '{{ site.url }}{{ page.previous.url }}';
+      url = '{{ site.url }}{{ site.baseurl }}{{ page.previous.url }}';
     {% endif %}
     if (url) {
       window.location = url;
@@ -27,19 +27,19 @@
   });
   Mousetrap.bind('j', function() {
     {% if page.next %}
-      url = '{{ site.url }}{{ page.next.url }}';
+      url = '{{ site.url }}{{ site.baseurl }}{{ page.next.url }}';
     {% endif %}
     if (url) {
       window.location = url;
     }
   });
   Mousetrap.bind(['g h', 'g a'], function() {
-    window.location = '{{ site.url }}/';
+    window.location = '{{ site.url }}{{ site.baseurl }}';
   });
   Mousetrap.bind('r', function() {
     window.location.reload(true);
   });
   Mousetrap.bind('up up down down left right left right b a enter', function() {
-    window.location = '{{ site.url }}/end/';
+    window.location = '{{ site.url }}{{ site.baseurl }}/end/';
   });
 </script>
