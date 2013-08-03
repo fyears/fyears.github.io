@@ -32,6 +32,15 @@ markdown: redcarpet
 safe: true
 lsi: false
 
+redcarpet:
+  extensions:
+    - no_intra_emphasis
+    - fenced_code_blocks
+    - autolink
+    - with_toc_data
+    - hard_wrap
+    - link_attributes
+
 prose:
   rooturl: ""
   metadata: 
