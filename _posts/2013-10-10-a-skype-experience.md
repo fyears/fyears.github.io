@@ -1,10 +1,11 @@
 ---
-published: 
-  - true
-  - "true"
+published: true
 layout: post
-tags: "interesting, technology"
-categories: "interesting, technology"
+title: Skype 使用记
+tags: 
+  - interesting
+  - technology
+categories: technology
 ---
 
 Skype 是一个经典的网络电话服务。
