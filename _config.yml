@@ -39,15 +39,28 @@ redcarpet:
 
 prose:
   rooturl: ""
-  metadata: 
-    "_posts": |
-      published: false
-      layout: post
-      title: ""
-      abstract: ""
-      description: ""
-      categories:
-      - 
-      tags:
-      - 
-      - 
+  media: 'uploads'
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+          type: "text"
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Post Category"
+          placeholder: "Create or choose"
+          alterable: true
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          alterable: true
