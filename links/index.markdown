@@ -14,7 +14,6 @@ Here are some useful links:
 \# me
 
 - [Fleeting Years // 流年](http://www.fyears.org/): Fleeting years bright the life. // 流光溢彩，年华转逝。
-- [Fleeting Life // 浮生](http://life.fyears.org/): Fleeting life, treasuring years. // 浮华若梦，生如夏花。
 - [@fyears](https://twitter.com/fyears): @fyears' twitter
 - [@fyears' github](https://github.com/fyears): @fyears' github
 
@@ -67,4 +66,3 @@ Here are some useful links:
 - [Ubuntu](http://www.ubuntu.com/): Super-fast and great-looking, Ubuntu is a  secure, intuitive operating system.
 - [Wolfram\|Alpha](http://www.wolframalpha.com): Computational knowledge engine.
 - [WordPress](http://wordpress.org/): WordPress is a state-of-the-art  publishing platform with a focus on aesthetics, web standards, and  usability.
-- [WPG](http://wpg.im/):  A Chinese WordPress Group, A Life Long Film.
