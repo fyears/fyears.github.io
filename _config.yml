@@ -15,18 +15,10 @@ disqus_shortname: fyears
 google_analytics:
 
 links:
-  - name:         Blog
-    url:          /
   - name:         About
     url:          /about/
-  - name:         Categories
-    url:          /categories/
-  - name:         Tags
-    url:          /tags/
   - name:         Links
     url:          /links/
-  - name:         Feed
-    url:          /feed/
 
 markdown: redcarpet
 safe: true
@@ -36,6 +28,10 @@ redcarpet:
   extensions:
     - with_toc_data
     - hard_wrap
+    - no_intra_emphasis
+    - tables
+    - fenced_code_blocks
+    - autolink
 
 prose:
   rooturl: ""
