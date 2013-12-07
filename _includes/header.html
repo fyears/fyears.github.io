@@ -1,4 +1,6 @@
-<center>
-<a id="go-back-home" href="{{ site.url }}{{ site.baseurl }}/"><img src="{{ site.url }}{{ site.baseurl }}/assets/img/scribble.png" alt="scribble" width="53" height="59"></a>
-<p><a href="{{ site.url }}{{ site.baseurl }}/">{{ site.title }}</a></p>
-</center>
+<header class="site-header">
+  <a href="/" class="site-title square">Home</a>
+  {% for link in site.links %}
+    <a class="site-title square" href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.name }}</a>
+  {% endfor %}
+</header>

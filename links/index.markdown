@@ -1,7 +1,7 @@
 ---
 published: "true"
 date: "2010-06-21 22:58:23"
-layout: page
+layout: post
 slug: links
 status: publish
 title: Links

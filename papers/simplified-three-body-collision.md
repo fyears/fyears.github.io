@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 关于三质点同时碰撞问题的一组特解
 ---
 
