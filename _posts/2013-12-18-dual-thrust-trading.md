@@ -38,7 +38,7 @@ There are some assumptions and limitations in the simulation. I assume I have 1,
 
 **All** the below code requires these three libraries. Add these libraries accordingly firstly if you meet any troubles running code in this passage.
 
-```R
+```r
 library("lubridate")
 library(ggplot2)
 library("zoo")
@@ -52,7 +52,7 @@ library("zoo")
 
 ### load the data
 
-```R
+```r
 a = read.csv("min1_sh000300.csv")
 head(a)
 ##   Stock Code                Time Open High  Low Close  Volume    Amount
@@ -78,7 +78,7 @@ head(minutedata)
 
 It's quite strange that Google and Yahoo! do not provide the precise daily data of CSI300. So I have to generate the daily (low-frequency) data from the minutes data!
 
-```R
+```r
 gendaydata <- function(minutedata){
     alldaysdata = data.frame(Date=NULL, Open=NULL, High=NULL, Low=NULL, Close=NULL)
 
@@ -142,7 +142,7 @@ gendaydata <- function(minutedata){
 
 Then I do this:
 
-```R
+```r
 daydata = gendaydata(minutedata)
 # requires a long long time!!
 daydata = as.zoo(daydata[,2:5], as.Date(daydata[,1]))
@@ -165,7 +165,7 @@ For example, A-shares in China do not allow shorting. In other words, investors 
 
 So at first I define this trading function, in which the investors cannot sell short:
 
-```R
+```r
 starttradesimp <- function(minutedata, daydata, minutesinday=240, k1=0.5, k2=0.2, startmoney=1000000){
     daydata$hmc = daydata$High - daydata$Close
     daydata$cml = daydata$Close - daydata$Low
@@ -220,7 +220,7 @@ starttradesimp <- function(minutedata, daydata, minutesinday=240, k1=0.5, k2=0.2
 
 And the second function in which investors can sell short:
 
-```R
+```r
 starttrade <- function(minutedata, daydata, minutesinday=240, k1=0.5, k2=0.2, startmoney=1000000, borrowed_rate = 0.5){
     daydata$hmc = daydata$High - daydata$Close
     daydata$cml = daydata$Close - daydata$Low
@@ -297,7 +297,7 @@ Both functions above accept the `minutedata` and `daydata` (generated before, `z
 
 Next step. You may have to wait a night for these lines of code:
 
-```R
+```r
 gen_trade_simp_result = starttradesimp(minutedata, daydata)
 # verrrrrrrryyyyyyyyy slooooooooooooooowwwwwwwww!
 gen_trade_result = starttrade(minutedata, daydata)
@@ -306,7 +306,7 @@ gen_trade_result = starttrade(minutedata, daydata)
 
 ### result
 
-```R
+```r
 head(gen_trade_simp_result)
 ##                  time  cash stockasset   all
 ## 1 2010-01-05 09:31:00 1e+06          0 1e+06
@@ -329,13 +329,13 @@ Well, you probably know the structure of the result `data.frame`s now.
 
 Why not have a plot?
 
-```R
+```r
 qplot(x = gen_trade_simp_result$time, y = gen_trade_simp_result$all)
 ```
 
 ![trade-simple-result](data:image/png;base64,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)
 
-```R
+```r
 qplot(x = gen_trade_result$time, y = gen_trade_result$all)
 ```
 
