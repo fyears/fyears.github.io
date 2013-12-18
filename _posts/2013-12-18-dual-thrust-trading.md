@@ -40,7 +40,7 @@ There are some assumptions and limitations in the simulation. I assume I have 1,
 
 ```r
 library("lubridate")
-library(ggplot2)
+library("ggplot2")
 library("zoo")
 ## 
 ## Attaching package: 'zoo'
