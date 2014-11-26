@@ -10,7 +10,7 @@ title: Fleeting Years
 tagline: "Time goes."
 description: Time goes.
 url: http://www.fyears.org
-baseurl: /
+baseurl: 
 signoff: fyears
 disqus_shortname: fyears
 google_analytics:
