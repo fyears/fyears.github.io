@@ -1,7 +1,7 @@
 ---
 published: "true"
 date: "2010-06-21 22:58:23"
-layout: post
+layout: page
 slug: links
 status: publish
 title: Links
@@ -13,9 +13,9 @@ Here are some useful links:
 
 \# me
 
-- [Fleeting Years // 流年](http://www.fyears.org/): Fleeting years bright the life. // 流光溢彩，年华转逝。
-- [@fyears](https://twitter.com/fyears): @fyears' twitter
-- [@fyears' github](https://github.com/fyears): @fyears' github
+- [Fleeting Years](http://www.fyears.org/): My blog.
+- [@fyears](https://twitter.com/fyears): My twitter.
+- [@fyears' github](https://github.com/fyears): My github.
 
 \# who I want to make friends with
 

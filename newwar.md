@@ -1,5 +1,6 @@
 ---
 layout: post
+date: '2012-06-24'
 title: new war
 ---
 

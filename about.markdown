@@ -1,6 +1,6 @@
 ---
 date: '2009-05-23 03:39:33'
-layout: post
+layout: page
 slug: about
 status: publish
 title: About

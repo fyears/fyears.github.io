@@ -1,6 +1,6 @@
 ---
 date: '2010-01-01 11:15:41'
-layout: post
+layout: page
 slug: license
 status: publish
 title: License

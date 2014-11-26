@@ -1,0 +1,43 @@
+/*
+ * customize
+ *
+ * In addition to the original lanyon.css
+ */
+
+
+/* font */
+
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+sidebar{
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.pagination{
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/* add post author in index.html and _layouts/post.html */
+
+.post-date {
+  display: inline; /* reset the setting in lanyon and poole */
+  color: #515151; /* the same color as the body so it's harmony with post author */
+}
+
+
+
+/* img center and width */
+
+img {
+  clear: both;
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}

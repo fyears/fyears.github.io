@@ -4,21 +4,16 @@ layouts: ./_layouts
 include: ['.htaccess']
 exclude: []
 
-permalink: /:year/:month/:title/
+permalink: /:year/:month/:title.html
 author: fyears
 title: Fleeting Years
-description: Fleeting years bright the life. // 流光溢彩，年华转逝。
+tagline: "Time goes."
+description: Time goes.
 url: http://www.fyears.org
-baseurl: 
+baseurl: /
 signoff: fyears
 disqus_shortname: fyears
 google_analytics:
-
-links:
-  - name:         About
-    url:          /about/
-  - name:         Links
-    url:          /links/
 
 markdown: redcarpet
 safe: true
@@ -32,6 +27,8 @@ redcarpet:
     - tables
     - fenced_code_blocks
     - autolink
+
+paginate: 10
 
 prose:
   rooturl: ""
