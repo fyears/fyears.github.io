@@ -1,5 +1,7 @@
 ---
 date: '2011-04-21 11:37:52'
+redirect_from:
+  /2011/04/raving/
 layout: post
 slug: raving
 status: publish

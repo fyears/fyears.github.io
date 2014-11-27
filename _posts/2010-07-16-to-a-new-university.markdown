@@ -1,5 +1,7 @@
 ---
 date: '2010-07-16 00:45:16'
+redirect_from:
+  /2010/07/to-a-new-university/
 layout: post
 slug: to-a-new-university
 status: publish

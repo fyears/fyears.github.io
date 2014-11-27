@@ -1,5 +1,7 @@
 ---
 date: '2010-02-13 09:32:41'
+redirect_from:
+  /2010/02/why-should-we-start-writing/
 layout: post
 slug: why-should-we-start-writing
 status: publish

@@ -1,5 +1,7 @@
 ---
 date: '2011-05-19 11:33:18'
+redirect_from:
+  /2011/05/no-words-in-the-end/
 layout: post
 slug: no-words-in-the-end
 status: publish

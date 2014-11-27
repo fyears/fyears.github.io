@@ -1,5 +1,7 @@
 ---
 date: '2012-06-24 19:00:00'
+redirect_from:
+  /2012/06/never-use-hackintosh/
 layout: post
 status: publish
 title: never use Hackintosh

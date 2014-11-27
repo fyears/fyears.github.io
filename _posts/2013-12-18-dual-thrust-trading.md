@@ -1,5 +1,7 @@
 ---
 published: true
+redirect_from:
+  /2013/12/dual-thrust-trading/
 layout: post
 title: Dual Thrust Trading
 tags:

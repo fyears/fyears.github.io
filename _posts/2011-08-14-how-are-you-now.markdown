@@ -1,5 +1,7 @@
 ---
 date: '2011-08-14 16:15:52'
+redirect_from:
+  /2011/08/how-are-you-now/
 layout: post
 slug: how-are-you-now
 status: publish

@@ -1,5 +1,7 @@
 ---
 date: '2010-03-13 10:40:45'
+redirect_from:
+  /2010/03/if-our-body-is-a-city/
 layout: post
 slug: if-our-body-is-a-city
 status: publish

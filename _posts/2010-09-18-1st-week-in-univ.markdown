@@ -1,5 +1,7 @@
 ---
 date: '2010-09-18 05:40:07'
+redirect_from:
+  /2010/09/1st-week-in-univ/
 layout: post
 slug: 1st-week-in-univ
 status: publish

@@ -1,5 +1,7 @@
 ---
 date: '2011-02-17 10:52:27'
+redirect_from:
+  /2011/02/why-so-serious/
 layout: post
 slug: why-so-serious
 status: publish

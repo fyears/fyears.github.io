@@ -1,5 +1,7 @@
 ---
 date: '2011-07-22 17:46:36'
+redirect_from:
+  /2011/07/random-thoughts/
 layout: post
 slug: random-thoughts
 status: publish

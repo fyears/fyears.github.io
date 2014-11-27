@@ -1,5 +1,7 @@
 ---
 date: '2010-03-13 10:22:45'
+redirect_from:
+  /2010/03/those-past-breaking-my-heart/
 layout: post
 slug: those-past-breaking-my-heart
 status: publish

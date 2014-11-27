@@ -1,5 +1,7 @@
 ---
 date: '2010-08-20 03:59:01'
+redirect_from:
+  /2010/08/meaning-of-travel/
 layout: post
 slug: meaning-of-travel
 status: publish

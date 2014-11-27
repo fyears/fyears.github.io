@@ -1,5 +1,7 @@
 ---
 published: true
+redirect_from:
+  /2013/01/wandering-all-the-life/
 layout: post
 title: "空山不见人"
 abstract: ""

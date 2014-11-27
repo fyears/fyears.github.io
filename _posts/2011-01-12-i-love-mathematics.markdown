@@ -1,5 +1,7 @@
 ---
 date: '2011-01-12 15:52:29'
+redirect_from:
+  /2011/01/i-love-mathematics/
 layout: post
 slug: i-love-mathematics
 status: publish

@@ -1,5 +1,7 @@
 ---
 date: '2010-10-19 08:08:55'
+redirect_from:
+  /2010/10/prepare-for-gre-revised/
 layout: post
 slug: prepare-for-gre-revised
 status: publish

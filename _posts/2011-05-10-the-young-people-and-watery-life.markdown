@@ -1,5 +1,7 @@
 ---
 date: '2011-05-10 09:14:30'
+redirect_from:
+  /2011/05/the-young-people-and-watery-life/
 layout: post
 slug: the-young-people-and-watery-life
 status: publish

@@ -1,5 +1,7 @@
 ---
 date: '2010-07-02 22:46:11'
+redirect_from:
+  /2010/07/love-song-by-fish-leong/
 layout: post
 slug: love-song-by-fish-leong
 status: publish

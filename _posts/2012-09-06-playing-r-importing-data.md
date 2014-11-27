@@ -1,5 +1,7 @@
 ---
 layout: post
+redirect_from:
+  /2012/09/playing-r-importing-data/
 title: "playing R: importing data"
 description: ""
 category: science

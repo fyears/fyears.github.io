@@ -1,5 +1,7 @@
 ---
 date: '2012-01-30 13:16:21'
+redirect_from:
+  /2012/01/if-flash-is-open-source/
 layout: post
 slug: if-flash-is-open-source
 status: publish

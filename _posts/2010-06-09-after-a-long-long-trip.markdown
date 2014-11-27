@@ -1,5 +1,7 @@
 ---
 date: '2010-06-09 02:06:39'
+redirect_from:
+  /2010/06/after-a-long-long-trip/
 layout: post
 slug: after-a-long-long-trip
 status: publish

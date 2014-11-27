@@ -1,5 +1,7 @@
 ---
 published: true
+redirect_from:
+  /2013/10/a-skype-experience/
 layout: post
 title: Skype 使用记
 tags: 

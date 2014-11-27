@@ -1,5 +1,7 @@
 ---
 date: '2011-07-20 11:54:43'
+redirect_from:
+  /2011/07/words-should-not-say-1/
 layout: post
 slug: words-should-not-say-1
 status: publish

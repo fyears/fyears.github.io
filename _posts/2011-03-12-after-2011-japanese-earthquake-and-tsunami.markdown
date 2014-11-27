@@ -1,5 +1,7 @@
 ---
 date: '2011-03-12 13:34:00'
+redirect_from:
+  /2011/03/after-2011-japanese-earthquake-and-tsunami/
 layout: post
 slug: after-2011-japanese-earthquake-and-tsunami
 status: publish

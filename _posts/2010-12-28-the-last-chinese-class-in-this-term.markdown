@@ -1,5 +1,7 @@
 ---
 date: '2010-12-28 10:10:36'
+redirect_from:
+  /2010/12/the-last-chinese-class-in-this-term/
 layout: post
 slug: the-last-chinese-class-in-this-term
 status: publish

@@ -1,5 +1,7 @@
 ---
 date: '2010-03-06 09:49:01'
+redirect_from:
+  /2010/03/not-to-trust-in-cnnic/
 layout: post
 slug: not-to-trust-in-cnnic
 status: publish

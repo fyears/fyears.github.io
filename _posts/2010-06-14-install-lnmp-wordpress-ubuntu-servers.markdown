@@ -1,5 +1,7 @@
 ---
 date: '2010-06-14 10:45:52'
+redirect_from:
+  /2010/06/install-lnmp-wordpress-ubuntu-servers/
 layout: post
 slug: install-lnmp-wordpress-ubuntu-servers
 status: publish

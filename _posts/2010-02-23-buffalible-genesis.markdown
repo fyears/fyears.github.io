@@ -1,5 +1,7 @@
 ---
 date: '2010-02-23 14:49:20'
+redirect_from:
+  /2010/02/buffalible-genesis/
 layout: post
 slug: buffalible-genesis
 status: publish

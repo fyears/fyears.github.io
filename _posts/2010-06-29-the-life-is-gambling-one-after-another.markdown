@@ -1,5 +1,7 @@
 ---
 date: '2010-06-29 23:40:38'
+redirect_from:
+  /2010/06/the-life-is-gambling-one-after-another/
 layout: post
 slug: the-life-is-gambling-one-after-another
 status: publish

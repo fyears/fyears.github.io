@@ -1,5 +1,7 @@
 ---
 date: '2011-05-20 04:01:33'
+redirect_from:
+  /2011/05/thinking-about-blogging/
 layout: post
 slug: thinking-about-blogging
 status: publish

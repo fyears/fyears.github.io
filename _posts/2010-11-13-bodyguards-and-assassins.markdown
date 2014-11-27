@@ -1,5 +1,7 @@
 ---
 date: '2010-11-13 13:10:18'
+redirect_from:
+  /2010/11/bodyguards-and-assassins/
 layout: post
 slug: bodyguards-and-assassins
 status: publish

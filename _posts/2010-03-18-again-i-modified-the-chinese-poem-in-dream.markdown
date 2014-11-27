@@ -1,5 +1,7 @@
 ---
 date: '2010-03-18 10:21:09'
+redirect_from:
+  /2010/03/again-i-modified-the-chinese-poem-in-dream/
 layout: post
 slug: again-i-modified-the-chinese-poem-in-dream
 status: publish

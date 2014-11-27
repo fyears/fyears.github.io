@@ -1,5 +1,7 @@
 ---
 date: '2011-03-20 12:52:24'
+redirect_from:
+  /2011/03/what-i-believe-in/
 layout: post
 slug: what-i-believe-in
 status: publish

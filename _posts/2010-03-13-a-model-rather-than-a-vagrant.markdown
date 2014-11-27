@@ -1,5 +1,7 @@
 ---
 date: '2010-03-13 10:08:18'
+redirect_from:
+  /2010/03/a-model-rather-than-a-vagrant/
 layout: post
 slug: a-model-rather-than-a-vagrant
 status: publish

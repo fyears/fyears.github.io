@@ -1,5 +1,7 @@
 ---
 layout: post
+redirect_from:
+  /2013/05/preferring-mac-os-x/
 title: "preferring Mac OS X"
 description: ""
 category: technology

@@ -1,5 +1,7 @@
 ---
 date: '2011-02-09 13:44:09'
+redirect_from:
+  /2011/02/dreams-and-secrets/
 layout: post
 slug: dreams-and-secrets
 status: publish

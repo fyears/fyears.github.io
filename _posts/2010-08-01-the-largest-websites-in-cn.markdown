@@ -1,5 +1,7 @@
 ---
 date: '2010-08-01 19:17:31'
+redirect_from:
+  /2010/08/the-largest-websites-in-cn/
 layout: post
 slug: the-largest-websites-in-cn
 status: publish

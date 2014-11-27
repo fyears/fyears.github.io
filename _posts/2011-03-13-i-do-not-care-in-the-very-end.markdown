@@ -1,5 +1,7 @@
 ---
 date: '2011-03-13 10:19:22'
+redirect_from:
+  /2011/03/i-do-not-care-in-the-very-end/
 layout: post
 slug: i-do-not-care-in-the-very-end
 status: publish

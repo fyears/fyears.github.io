@@ -1,5 +1,7 @@
 ---
 date: '2010-06-15 03:28:43'
+redirect_from:
+  /2010/06/how-to-prove-reincarnation-with-statistical-experiment/
 layout: post
 slug: how-to-prove-reincarnation-with-statistical-experiment
 status: publish

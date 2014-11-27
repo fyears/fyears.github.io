@@ -1,5 +1,7 @@
 ---
 date: '2010-08-22 00:51:57'
+redirect_from:
+  /2010/08/some-useful-bookmarklets/
 layout: post
 slug: some-useful-bookmarklets
 status: publish

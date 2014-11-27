@@ -1,5 +1,7 @@
 ---
 date: '2010-01-31 13:04:29'
+redirect_from:
+  /2010/01/install-ubuntu-9-10/
 layout: post
 slug: install-ubuntu-9-10
 status: publish

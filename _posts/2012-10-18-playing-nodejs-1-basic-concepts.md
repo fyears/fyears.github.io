@@ -1,5 +1,7 @@
 ---
 layout: post
+redirect_from:
+  /2012/10/playing-nodejs-1-basic-concepts/
 title: "playing Node.js: 1. basic concepts"
 description: ""
 category: technology

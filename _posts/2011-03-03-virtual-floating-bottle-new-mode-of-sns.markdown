@@ -1,5 +1,7 @@
 ---
 date: '2011-03-03 15:24:36'
+redirect_from:
+  /2011/03/virtual-floating-bottle-new-mode-of-sns/
 layout: post
 slug: virtual-floating-bottle-new-mode-of-sns
 status: publish

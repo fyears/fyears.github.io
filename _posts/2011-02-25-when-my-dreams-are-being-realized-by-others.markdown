@@ -1,5 +1,7 @@
 ---
 date: '2011-02-25 15:01:17'
+redirect_from:
+  /2011/02/when-my-dreams-are-being-realized-by-others/
 layout: post
 slug: when-my-dreams-are-being-realized-by-others
 status: publish

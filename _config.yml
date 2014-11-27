@@ -4,7 +4,7 @@ layouts: ./_layouts
 include: ['.htaccess']
 exclude: []
 
-permalink: /:year/:month/:title/
+permalink: /:year/:month/:title.html
 author: fyears
 title: Fleeting Years
 tagline: "Time goes."

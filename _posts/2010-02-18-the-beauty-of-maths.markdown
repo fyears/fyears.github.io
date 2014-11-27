@@ -1,5 +1,7 @@
 ---
 date: '2010-02-18 01:50:52'
+redirect_from:
+  /2010/02/the-beauty-of-maths/
 layout: post
 slug: the-beauty-of-maths
 status: publish

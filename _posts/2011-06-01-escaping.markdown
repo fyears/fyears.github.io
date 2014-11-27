@@ -1,5 +1,7 @@
 ---
 date: '2011-06-01 16:18:29'
+redirect_from:
+  /2011/06/escaping/
 layout: post
 slug: escaping
 status: publish

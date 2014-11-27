@@ -1,5 +1,7 @@
 ---
 date: '2011-03-15 13:18:44'
+redirect_from:
+  /2011/03/lomo-camera-diy/
 layout: post
 slug: lomo-camera-diy
 status: publish

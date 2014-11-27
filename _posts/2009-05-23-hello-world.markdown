@@ -1,5 +1,7 @@
 ---
 published: true
+redirect_from:
+  /2009/05/hello-world/
 date: "2009-05-23 03:39:33"
 layout: post
 slug: "hello-world"

@@ -1,5 +1,7 @@
 ---
 date: '2010-06-21 23:02:53'
+redirect_from:
+  /2010/06/secrets-in-english/
 layout: post
 slug: secrets-in-english
 status: publish

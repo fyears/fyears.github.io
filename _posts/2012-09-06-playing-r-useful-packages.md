@@ -1,5 +1,7 @@
 ---
 layout: post
+redirect_from:
+  /2012/09/playing-r-useful-packages/
 title: "playing R: useful packages"
 description: ""
 category: science

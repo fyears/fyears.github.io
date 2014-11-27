@@ -1,5 +1,7 @@
 ---
 date: '2010-08-14 05:51:21'
+redirect_from:
+  /2010/08/please-give-me-a-chance/
 layout: post
 slug: please-give-me-a-chance
 status: publish

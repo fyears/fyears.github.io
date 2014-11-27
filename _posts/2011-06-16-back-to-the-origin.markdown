@@ -1,5 +1,7 @@
 ---
 date: '2011-06-16 16:53:08'
+redirect_from:
+  /2011/06/back-to-the-origin/
 layout: post
 slug: back-to-the-origin
 status: publish

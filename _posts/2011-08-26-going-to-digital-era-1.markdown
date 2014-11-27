@@ -1,5 +1,7 @@
 ---
 date: '2011-08-26 03:18:06'
+redirect_from:
+  /2011/08/going-to-digital-era-1/
 layout: post
 slug: going-to-digital-era-1
 status: publish

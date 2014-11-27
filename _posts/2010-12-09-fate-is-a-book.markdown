@@ -1,5 +1,7 @@
 ---
 date: '2010-12-09 15:47:10'
+redirect_from:
+  /2010/12/fate-is-a-book/
 layout: post
 slug: fate-is-a-book
 status: publish

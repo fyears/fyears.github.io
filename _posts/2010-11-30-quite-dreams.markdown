@@ -1,5 +1,7 @@
 ---
 date: '2010-11-30 13:25:41'
+redirect_from:
+  /2010/11/quite-dreams/
 layout: post
 slug: quite-dreams
 status: publish

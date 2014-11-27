@@ -1,5 +1,7 @@
 ---
 date: '2009-05-23 03:39:33'
+redirect_from:
+  /about/
 layout: page
 slug: about
 status: publish

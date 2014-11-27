@@ -1,5 +1,7 @@
 ---
 date: '2010-01-07 10:58:12'
+redirect_from:
+  /2010/01/critical-thinking-and-more/
 layout: post
 slug: critical-thinking-and-more
 status: publish

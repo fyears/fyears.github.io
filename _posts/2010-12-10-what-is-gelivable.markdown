@@ -1,5 +1,7 @@
 ---
 date: '2010-12-10 06:44:27'
+redirect_from:
+  /2010/12/what-is-gelivable/
 layout: post
 slug: what-is-gelivable
 status: publish

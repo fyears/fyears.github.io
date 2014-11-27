@@ -1,6 +1,8 @@
 ---
 published: "true"
 date: "2010-06-21 22:58:23"
+redirect_from:
+  /links/
 layout: page
 slug: links
 status: publish

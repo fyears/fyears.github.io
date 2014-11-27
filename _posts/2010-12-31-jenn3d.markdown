@@ -1,5 +1,7 @@
 ---
 date: '2010-12-31 13:33:41'
+redirect_from:
+  /2010/12/jenn3d/
 layout: post
 slug: jenn3d
 status: publish

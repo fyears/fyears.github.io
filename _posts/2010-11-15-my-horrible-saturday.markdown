@@ -1,5 +1,7 @@
 ---
 date: '2010-11-15 11:36:14'
+redirect_from:
+  /2010/11/my-horrible-saturday/
 layout: post
 slug: my-horrible-saturday
 status: publish

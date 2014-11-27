@@ -1,5 +1,7 @@
 ---
 date: '2010-03-04 04:48:26'
+redirect_from:
+  /2010/03/the-book-what-is-mathematics/
 layout: post
 slug: the-book-what-is-mathematics
 status: publish

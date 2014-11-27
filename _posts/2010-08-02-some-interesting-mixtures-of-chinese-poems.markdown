@@ -1,5 +1,7 @@
 ---
 date: '2010-08-02 04:46:58'
+redirect_from:
+  /2010/08/some-interesting-mixtures-of-chinese-poems/
 layout: post
 slug: some-interesting-mixtures-of-chinese-poems
 status: publish

@@ -1,5 +1,7 @@
 ---
 date: '2011-03-02 05:43:56'
+redirect_from:
+  /2011/03/about-ipartment/
 layout: post
 slug: about-ipartment
 status: publish

@@ -1,5 +1,7 @@
 ---
 date: '2010-06-16 19:08:23'
+redirect_from:
+  /2010/06/two-chinese-poems/
 layout: post
 slug: two-chinese-poems
 status: publish

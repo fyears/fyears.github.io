@@ -1,5 +1,7 @@
 ---
 date: '2010-12-06 15:23:01'
+redirect_from:
+  /2010/12/the-unpleasant-experience/
 layout: post
 slug: the-unpleasant-experience
 status: publish
