@@ -4,7 +4,7 @@ layouts: ./_layouts
 include: ['.htaccess']
 exclude: []
 
-permalink: /:year/:month/:title.html
+permalink: /:year/:month/:title/
 author: fyears
 title: Fleeting Years
 tagline: "Time goes."
@@ -16,7 +16,6 @@ disqus_shortname: fyears
 google_analytics:
 
 markdown: redcarpet
-safe: true
 lsi: false
 
 redcarpet:
@@ -29,6 +28,11 @@ redcarpet:
     - autolink
 
 paginate: 10
+
+gems:
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-redirect-from
 
 prose:
   rooturl: ""
