@@ -1,4 +1,5 @@
 """
+put this inside _posts
 ugly methods to
 add redirect lines
 so that jekyll_redirect_from can redirect the posts
