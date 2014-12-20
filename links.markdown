@@ -33,6 +33,7 @@ Here are some useful links:
 - [Layla's page](http://www.sweet-layla.com/): MC=MR -- Layla's page
 - [vgod](http://blog.vgod.tw/): A Ph.D. student in the User Interface Design Group, CSAIL (Computer Science and Artificial Intelligence Lab) at MIT (Massachusetts Institute of Technology).
 - [Yihui Xie \| 谢益辉](http://yihui.name/): a PhD student on statistics
+- [比特之理](http://www.kylen314.com/): とある東雲研究所の分所
 - [湖心娉婷](http://huxinpingting.blog.tianya.cn): 谁家今夜扁舟子。
 - [李淼](http://limiao.net/): 这个博客的主要内容是八卦弦论、宇宙学以及相关的一些物理问题。
 - [考据癖](http://localhost-8080.com/): 不是不博学，只是未考据 – 好奇心 · 为什么 · 冷知识。
