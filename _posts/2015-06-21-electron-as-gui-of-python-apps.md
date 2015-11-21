@@ -50,7 +50,7 @@ Install Python, node.js, then
 ```bash
 pip install Flask
 npm install electron-prebuilt -g
-npm install jquery -g
+npm install request-promise -g
 ```
 
 Then create a working directory. `cd` to the directory.
@@ -62,78 +62,65 @@ We need a basic `package.json`:
   "name"    : "your-app",
   "version" : "0.1.0",
   "main"    : "main.js",
-  "dependencies": {"electron-prebuilt":"", "jquery":""}
+  "dependencies": {
+    "request-promise": "*",
+    "electron-prebuilt": "*"
+  }
 }
 ```
 
 as well as the `main.js`:
 
 ```js
-var app = require('app');
-var BrowserWindow = require('browser-window'); 
-require('crash-reporter').start();
+const electron = require('electron');
+const app = electron.app;
+const BrowserWindow = electron.BrowserWindow;
+electron.crashReporter.start();
+
 var mainWindow = null;
+
 app.on('window-all-closed', function() {
-  app.quit();
+  //if (process.platform != 'darwin') {
+    app.quit();
+  //}
 });
 
 app.on('ready', function() {
-  // call python
-  var subpy = require('child_process').spawn('python', [__dirname + '/hello.py']);
+  // call python?
+  var subpy = require('child_process').spawn('python', ['./hello.py']);
+  //var subpy = require('child_process').spawn('./dist/hello.exe');
+  var rq = require('request-promise');
+  var mainAddr = 'http://localhost:5000';
 
-  // Create the browser window.
-  mainWindow = new BrowserWindow({width: 800, height: 600});
+  var openWindow = function(){
+    mainWindow = new BrowserWindow({width: 800, height: 600});
+    // mainWindow.loadURL('file://' + __dirname + '/index.html');
+    mainWindow.loadURL('http://localhost:5000');
+    mainWindow.webContents.openDevTools();
+    mainWindow.on('closed', function() {
+      mainWindow = null;
+      subpy.kill('SIGINT');
+    });
+  };
 
-  // and load the index.html of the app.
-  mainWindow.loadUrl('file://' + __dirname + '/index.html');
-  //mainWindow.loadUrl('http://localhost:5000');
+  var startUp = function(){
+    rq(mainAddr)
+      .then(function(htmlString){
+        console.log('server started!');
+        openWindow();
+      })
+      .catch(function(err){
+        //console.log('waiting for the server start...');
+        startUp();
+      });
+  };
 
-  // Open the devtools.
-  mainWindow.openDevTools();
-
-  // Emitted when the window is closed.
-  mainWindow.on('closed', function() {
-    mainWindow = null;
-
-    // kill python
-    subpy.kill('SIGINT');
-  });
+  // fire!
+  startUp();
 });
 ```
 
-Notice that in `main.js`, we spawn a child process for a Python application. But we load `index.html` firstly. Why? Because it needs time to start the web server, so we could start the static file firstly, then let the static file detect whether the web server is ready or not. If the web server is ready, we redirect the pages.
-
-Here is `index.html`:
-
-```html
-<!DOCTYPE html>
-<html>
-  <head><title>Hello World!</title></head>
-  <body>
-    <h1>Hello World!</h1>
-    Loading...
-  </body>
-
-  <script type="text/javascript">
-    window.$ = window.jQuery = require('jquery');
-    var mainAddr = 'http://localhost:5000';
-    $.ajax({
-        type: 'HEAD',
-        url: mainAddr,
-        success: function() {
-            //alert('good');
-            location.replace(mainAddr);
-        },
-        error: function() {
-            alert('some errors happen...');
-            // page does not exist
-        }
-    });
-  </script>
-</html>
-```
-
-Notice the tricky way of loading `jquery`. We are runing the scripts in a node-like environment instead of tranditional web browser. So we need to run `npm install` before that and then use `require()`.
+Notice that in `main.js`, we spawn a child process for a Python application. Then we check whether the server has been up or not using unlimited loop (well, bad practice! we should actually check the time required and break the loop after some seconds). After the server has been up, we build an actual electron window pointing to the new local website index page.
 
 Lastly, the `hello.py`:
 
@@ -142,19 +129,18 @@ Lastly, the `hello.py`:
 # -*- coding: utf-8 -*-
 
 from __future__ import print_function
-import sys, time
+import time
 from flask import Flask
 
 app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    #time.sleep(5)
     return "Hello World! This is powered by Python backend."
 
 if __name__ == "__main__":
     print('oh hello')
-    sys.stdout.flush()
+    #time.sleep(5)
     app.run(host='127.0.0.1', port=5000)
 ```
 
@@ -165,6 +151,8 @@ electron . # . as the working directory
 ```
 
 A desktop application should be launched as desired.
+
+The full code could be viewed on [GitHub](https://github.com/fyears/electron-python-example).
 
 ## further thinking
 
