@@ -106,14 +106,20 @@ So, edit the NGINX virtual host configuration file as follow:
 ```nginx
 server{
     listen 80;
+    #listen [::]:80;
     server_name hellossl.example.com;
+    root /var/www/hellossl.example.com;
     location / {
         rewrite ^ https://$server_name$request_uri permanent;
+    }
+    location /.well-known {
+        try_files $uri $uri/ =404;
     }
 }
 
 server {
-    listen 443 ssl;
+    listen 443 ssl http2; # http2 enabled here
+    #listen [::]:443 ssl http2;
     server_name hellossl.example.com;
 
     # certs sent to the client in SERVER HELLO are concatenated in ssl_certificate
@@ -124,7 +130,7 @@ server {
     ssl_session_tickets off;
 
     # Diffie-Hellman parameter for DHE ciphersuites, recommended 2048 bits
-    # no idea Let's Encrypt cares about it or not, so comment it here.
+    # Let's Encrypt doesn't care about it here, so comment it here.
     #ssl_dhparam /path/to/dhparam.pem;
 
     # configuration. tweak to your needs.
@@ -147,6 +153,11 @@ server {
     ssl_trusted_certificate /etc/letsencrypt/live/hellossl.example.com/chain.pem;
 
     #resolver <IP DNS resolver>;
+
+    root /var/www/hellossl.example.com;
+    location /.well-known {
+        try_files $uri $uri/ =404;
+    }
  
     # ...
 }
