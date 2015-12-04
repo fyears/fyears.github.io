@@ -104,7 +104,7 @@ We may also want to rewrite the http site to https using [`rewrite`](https://www
 So, edit the NGINX virtual host configuration file as follow:
 
 ```nginx
-server{
+server {
     listen 80;
     #listen [::]:80;
     server_name hellossl.example.com;
@@ -131,7 +131,7 @@ server {
 
     # Diffie-Hellman parameter for DHE ciphersuites, recommended 2048 bits
     # Let's Encrypt doesn't care about it here, so comment it here.
-    #ssl_dhparam /path/to/dhparam.pem;
+    #ssl_dhparam /etc/ssl/certs/dhparam.pem;
 
     # configuration. tweak to your needs.
     ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
@@ -172,6 +172,35 @@ nginx reload
 ### check the result
 
 Go to http://hellossl.example.com, if everything goes right, you should be redirected to https://hellossl.example.com without any errors! WOW!
+
+### bonus: `ssl_dhparam`
+
+`ssl_dhparam` is [a way](https://weakdh.org/sysadmin.html) to enhance security.
+
+Generate `dhparam.pem` firstly:
+
+```sh
+# long time to run!!!
+openssl dhparam -out dhparam.pem 4096
+# place the cert somewhere
+sudo mv dhparam.pem /etc/ssl/certs/dhparam.pem
+```
+
+Then uncomment the relatived line in NGINX configuration:
+
+```nginx
+server {
+    # ...
+    ssl_dhparam /etc/ssl/certs/dhparam.pem;
+    # ...
+}
+```
+
+Then reload the NGINX.
+
+```sh
+nginx reload
+```
 
 ## conclusion and other things
 
