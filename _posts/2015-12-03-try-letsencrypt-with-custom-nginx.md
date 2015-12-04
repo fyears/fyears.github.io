@@ -66,8 +66,6 @@ letsencrypt certonly --email admin@example.com --agree-tos --webroot -w /var/www
 ##    Donating to EFF:                    https://eff.org/donate-le
 ```
 
-Attention! If we run the command the first time, we may have to input the email address and accept the ToS after the above the command. My understanding is that we don't have to enter email and accept ToS next times.
-
 In fact, the client creates a directory in the web root, and generates some important files in its directory:
 
 ```sh
@@ -80,6 +78,19 @@ tree -a /var/www/hellossl.example.com/
 
 ls -al /etc/letsencrypt/live/hellossl.example.com/
 ## cert.pem  chain.pem  fullchain.pem  privkey.pem
+```
+
+Note: I am confused how the email is used. We could check [issue #1310](https://github.com/letsencrypt/letsencrypt/issues/1310) and [post #2603](https://community.letsencrypt.org/t/2603) for details:
+
+```sh
+tree -a /etc/letsencrypt/accounts
+## /etc/letsencrypt/accounts
+## └── acme-v01.api.letsencrypt.org
+##     └── directory
+##         └── <hash>
+##             ├── meta.json
+##             ├── private_key.json
+##             └── regr.json
 ```
 
 ### configure the NGINX
@@ -157,3 +168,4 @@ It works! And it's very cool!
 
 And we should notice that the certificate will expire in 90 days. So if we use it in production, we should set up something like `crontab` running automatically, say, every month, to renew the certificate.
 
+For simplified steps, we could also try less complicated unofficial clients [diafygi/acme-tiny](https://github.com/diafygi/acme-tiny), [diafygi/letsencrypt-nosudo](https://github.com/diafygi/letsencrypt-nosudo), or [kuba/simp_le](https://github.com/kuba/simp_le).
