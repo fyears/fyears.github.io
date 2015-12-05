@@ -4,7 +4,6 @@
  * In addition to the original lanyon.css
  */
 
-
 /* font */
 
 html {
@@ -40,4 +39,48 @@ img {
   display: block;
   margin: auto;
   max-width: 100%;
+}
+
+
+/* head-nav */
+
+.head-nav {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #505050;
+}
+.head-nav a {
+  color: #505050;
+}
+.head-nav a.head-nav-item.active {
+  text-decoration: underline;
+}
+
+@media (max-width: 48em) {
+  .head-nav {
+    text-align: center;
+  }
+}
+
+
+/* footer */
+
+footer {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.9em;
+  line-height: 80%;
+  margin-bottom: 3rem;
+}
+@media (max-width: 30em) {
+  footer{
+    margin-top: 3rem;
+  }
+}
+@media (max-width: 48em) {
+  footer {
+    text-align: center;
+  }
 }

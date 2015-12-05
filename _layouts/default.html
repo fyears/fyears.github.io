@@ -4,8 +4,9 @@
   {% include head.html %}
 
   <body class="sidebar-overlay">
-
+    {% comment %}
     {% include sidebar.html %}
+    {% endcomment %}
 
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
@@ -16,14 +17,18 @@
             <a href="/" title="Home">{{ site.title }}</a>
             <small>{{ site.tagline }}</small>
           </h3>
+
+          {% include nav.html %}
         </div>
       </div>
+
 
       <div class="container content">
         {{ content }}
       </div>
     </div>
 
+    {% comment %}
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
     <script>
@@ -40,6 +45,18 @@
         }, false);
       })(document);
     </script>
+    {% endcomment %}
+
+    <footer>
+      <div class="container">
+      <p>
+        &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+      </p>
+      <p>
+        Theme modified from <a href="https://github.com/poole/lanyon" target="_blank">lanyon</a>.
+      </p>
+      </div>
+    </footer>
 
     {% include foot.html %}
   </body>
