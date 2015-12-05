@@ -7,6 +7,7 @@ slug: license
 status: publish
 title: License
 wordpress_id: '20'
+comments: false
 ---
 
 [![Creative Commons License](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/3.0/)

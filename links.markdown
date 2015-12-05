@@ -8,7 +8,7 @@ slug: links
 status: publish
 title: Links
 wordpress_id: "266"
-
+comments: false
 ---
 
 Here are some useful links:
