@@ -16,6 +16,7 @@ disqus_shortname: fyears
 google_analytics:
 
 markdown: redcarpet
+highlighter: pygments
 lsi: false
 
 redcarpet:
