@@ -1,6 +1,6 @@
 source: .
 destination: ./_site
-layouts: ./_layouts
+layouts_dir: ./_layouts
 include: ['.htaccess']
 exclude: []
 
@@ -15,8 +15,8 @@ signoff: fyears
 disqus_shortname: fyears
 google_analytics:
 
-markdown: redcarpet
-highlighter: pygments
+markdown: kramdown
+highlighter: rouge
 lsi: false
 
 redcarpet:
@@ -28,12 +28,23 @@ redcarpet:
     - fenced_code_blocks
     - autolink
 
+kramdown:
+  input:          GFM
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  hard_wrap:      true
+
 paginate: 10
 
 gems:
   - jemoji
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-paginate
 
 prose:
   rooturl: ""
