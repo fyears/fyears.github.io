@@ -1,7 +1,5 @@
 ---
 date: '2010-01-01 11:15:41'
-redirect_from:
-  /license/
 layout: page
 slug: license
 status: publish
