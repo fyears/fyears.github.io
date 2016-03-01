@@ -7,19 +7,27 @@
 /* font */
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Source Han Sans", "Noto Sans CJK", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, "Source Han Sans", "Noto Sans CJK", sans-serif;
 }
 
-sidebar{
-  font-family: Helvetica, Arial, sans-serif;
+sidebar {
+  font-family: Helvetica, Arial, "Source Han Sans", "Noto Sans CJK", sans-serif;
 }
 
-.pagination{
-  font-family: Helvetica, Arial, sans-serif;
+.pagination {
+  font-family: Helvetica, Arial, "Source Han Sans", "Noto Sans CJK", sans-serif;
+}
+
+code, pre {
+  font-family: "Source Code Pro", Menlo, Monaco, "Courier New", monospace;
+}
+
+.gist .gist-file {
+  font-family: "Source Code Pro", Menlo, Monaco, "Courier New", monospace !important;
 }
 
 
