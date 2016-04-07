@@ -1,7 +1,5 @@
 ---
 date: '2010-03-23 04:57:46'
-redirect_from:
-  /2010/03/a-historic-moment/
 layout: post
 slug: a-historic-moment
 status: publish

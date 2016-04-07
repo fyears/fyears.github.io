@@ -1,7 +1,5 @@
 ---
 date: '2011-08-04 13:42:24'
-redirect_from:
-  /2011/08/a-sf-by-me/
 layout: post
 slug: a-sf-by-me
 status: publish

@@ -1,7 +1,5 @@
 ---
 published: true
-redirect_from:
-  /2012/11/dont-miss-the-disappeared/
 layout: post
 title: "已经不见，不要怀念"
 abstract: ""

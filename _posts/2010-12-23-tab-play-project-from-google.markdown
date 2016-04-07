@@ -1,7 +1,5 @@
 ---
 date: '2010-12-23 11:18:04'
-redirect_from:
-  /2010/12/tab-play-project-from-google/
 layout: post
 slug: tab-play-project-from-google
 status: publish

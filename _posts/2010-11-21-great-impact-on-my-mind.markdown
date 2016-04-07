@@ -1,7 +1,5 @@
 ---
 date: '2010-11-21 04:21:41'
-redirect_from:
-  /2010/11/great-impact-on-my-mind/
 layout: post
 slug: great-impact-on-my-mind
 status: publish

@@ -1,7 +1,5 @@
 ---
 date: '2011-05-02 15:32:39'
-redirect_from:
-  /2011/05/write-to-me-in-a-decade-later/
 layout: post
 slug: write-to-me-in-a-decade-later
 status: publish

@@ -1,7 +1,5 @@
 ---
 date: '2010-08-01 10:56:18'
-redirect_from:
-  /2010/08/install-go/
 layout: post
 slug: install-go
 status: publish

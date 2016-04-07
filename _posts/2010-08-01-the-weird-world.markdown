@@ -1,7 +1,5 @@
 ---
 date: '2010-08-01 18:59:34'
-redirect_from:
-  /2010/08/the-weird-world/
 layout: post
 slug: the-weird-world
 status: publish

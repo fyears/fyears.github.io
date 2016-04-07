@@ -1,7 +1,5 @@
 ---
 date: '2010-01-02 05:07:00'
-redirect_from:
-  /2010/01/interesting-google-maps/
 layout: post
 slug: interesting-google-maps
 status: publish

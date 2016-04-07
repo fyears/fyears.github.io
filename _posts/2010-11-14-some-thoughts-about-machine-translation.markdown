@@ -1,7 +1,5 @@
 ---
 date: '2010-11-14 09:06:28'
-redirect_from:
-  /2010/11/some-thoughts-about-machine-translation/
 layout: post
 slug: some-thoughts-about-machine-translation
 status: publish

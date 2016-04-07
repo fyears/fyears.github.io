@@ -1,7 +1,5 @@
 ---
 date: '2011-04-02 12:45:09'
-redirect_from:
-  /2011/04/alchemy-the-game-as-the-world-view/
 layout: post
 slug: alchemy-the-game-as-the-world-view
 status: publish

@@ -1,7 +1,5 @@
 ---
 date: '2010-11-16 08:09:56'
-redirect_from:
-  /2010/11/youve-said-but-later/
 layout: post
 slug: youve-said-but-later
 status: publish

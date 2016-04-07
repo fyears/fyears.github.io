@@ -1,7 +1,5 @@
 ---
 date: '2011-12-25 05:09:05'
-redirect_from:
-  /2011/12/thoughts-after-reading-manifest-der-kommunistischen-partei/
 layout: post
 slug: thoughts-after-reading-manifest-der-kommunistischen-partei
 status: publish

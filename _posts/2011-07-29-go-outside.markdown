@@ -1,7 +1,5 @@
 ---
 date: '2011-07-29 03:32:16'
-redirect_from:
-  /2011/07/go-outside/
 layout: post
 slug: go-outside
 status: publish

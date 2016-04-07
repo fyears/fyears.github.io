@@ -1,7 +1,5 @@
 ---
 date: '2010-06-18 03:20:17'
-redirect_from:
-  /2010/06/the-world-outdoors-is-too-attractive/
 layout: post
 slug: the-world-outdoors-is-too-attractive
 status: publish

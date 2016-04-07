@@ -1,7 +1,5 @@
 ---
 date: '2011-02-26 00:41:38'
-redirect_from:
-  /2011/02/interesting-birthday-statistic/
 layout: post
 slug: interesting-birthday-statistic
 status: publish

@@ -1,7 +1,5 @@
 ---
 date: '2010-12-16 04:38:31'
-redirect_from:
-  /2010/12/facebook-members-visualization/
 layout: post
 slug: facebook-members-visualization
 status: publish

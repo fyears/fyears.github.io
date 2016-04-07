@@ -1,7 +1,5 @@
 ---
 date: '2010-02-10 10:43:46'
-redirect_from:
-  /2010/02/something-about-does-god-play-dice/
 layout: post
 slug: something-about-does-god-play-dice
 status: publish

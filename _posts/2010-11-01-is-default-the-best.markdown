@@ -1,7 +1,5 @@
 ---
 date: '2010-11-01 14:18:04'
-redirect_from:
-  /2010/11/is-default-the-best/
 layout: post
 slug: is-default-the-best
 status: publish

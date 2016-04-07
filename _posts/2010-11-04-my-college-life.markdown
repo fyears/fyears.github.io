@@ -1,7 +1,5 @@
 ---
 date: '2010-11-04 15:34:00'
-redirect_from:
-  /2010/11/my-college-life/
 layout: post
 slug: my-college-life
 status: publish

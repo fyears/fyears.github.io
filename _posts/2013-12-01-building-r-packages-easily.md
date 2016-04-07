@@ -1,7 +1,5 @@
 ---
 published: true
-redirect_from:
-  /2013/12/building-r-packages-easily/
 layout: post
 title: 极简 R 包建立方法
 tags: 

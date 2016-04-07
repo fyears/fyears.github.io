@@ -1,7 +1,5 @@
 ---
 date: '2011-04-05 09:34:17'
-redirect_from:
-  /2011/04/a-sketch-by-me/
 layout: post
 slug: a-sketch-by-me
 status: publish

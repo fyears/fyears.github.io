@@ -1,7 +1,5 @@
 ---
 date: '2011-04-20 14:33:13'
-redirect_from:
-  /2011/04/manzanita-a-circle-of-leaf-or-life/
 layout: post
 slug: manzanita-a-circle-of-leaf-or-life
 status: publish

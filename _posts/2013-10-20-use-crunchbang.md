@@ -1,7 +1,5 @@
 ---
 published: true
-redirect_from:
-  /2013/10/use-crunchbang/
 layout: post
 title: use CrunchBang
 tags: 

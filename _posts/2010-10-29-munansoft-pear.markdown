@@ -1,7 +1,5 @@
 ---
 date: '2010-10-29 16:46:31'
-redirect_from:
-  /2010/10/munansoft-pear/
 layout: post
 slug: munansoft-pear
 status: publish

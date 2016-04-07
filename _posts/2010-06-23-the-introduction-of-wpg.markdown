@@ -1,7 +1,5 @@
 ---
 date: '2010-06-23 23:10:09'
-redirect_from:
-  /2010/06/the-introduction-of-wpg/
 layout: post
 slug: the-introduction-of-wpg
 status: publish

@@ -1,7 +1,5 @@
 ---
 date: '2011-07-11 14:31:45'
-redirect_from:
-  /2011/07/military-songs/
 layout: post
 slug: military-songs
 status: publish

@@ -1,7 +1,5 @@
 ---
 date: '2011-01-09 09:46:30'
-redirect_from:
-  /2011/01/the-beginning-of-new-war-1/
 layout: post
 slug: the-beginning-of-new-war-1
 status: publish

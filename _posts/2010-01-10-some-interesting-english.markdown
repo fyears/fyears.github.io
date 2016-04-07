@@ -1,7 +1,5 @@
 ---
 date: '2010-01-10 10:55:18'
-redirect_from:
-  /2010/01/some-interesting-english/
 layout: post
 slug: some-interesting-english
 status: publish

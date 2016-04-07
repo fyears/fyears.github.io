@@ -1,7 +1,5 @@
 ---
 date: '2012-05-24 19:00:00'
-redirect_from:
-  /2012/05/jekyll-for-hackers-not-for-humans/
 layout: post
 slug: jekyll-for-hackers-not-for-humans
 status: publish

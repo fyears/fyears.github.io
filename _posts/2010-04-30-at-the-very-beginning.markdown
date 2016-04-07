@@ -1,7 +1,5 @@
 ---
 date: '2010-04-30 10:34:09'
-redirect_from:
-  /2010/04/at-the-very-beginning/
 layout: post
 slug: at-the-very-beginning
 status: publish

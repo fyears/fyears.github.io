@@ -1,7 +1,5 @@
 ---
 date: '2010-09-01 23:58:33'
-redirect_from:
-  /2010/09/inception/
 layout: post
 slug: inception
 status: publish

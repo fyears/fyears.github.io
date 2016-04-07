@@ -1,7 +1,5 @@
 ---
 date: '2010-12-30 12:37:26'
-redirect_from:
-  /2010/12/coding-style-from-linux-kernel-and-google/
 layout: post
 slug: coding-style-from-linux-kernel-and-google
 status: publish

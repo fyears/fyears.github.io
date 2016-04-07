@@ -1,7 +1,5 @@
 ---
 date: '2010-10-30 11:45:12'
-redirect_from:
-  /2010/10/equation-of-life/
 layout: post
 slug: equation-of-life
 status: publish

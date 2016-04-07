@@ -1,7 +1,5 @@
 ---
 date: '2010-06-09 03:12:47'
-redirect_from:
-  /2010/06/doraemon-in-css3/
 layout: post
 slug: doraemon-in-css3
 status: publish

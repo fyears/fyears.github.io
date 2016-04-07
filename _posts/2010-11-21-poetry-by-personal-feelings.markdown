@@ -1,7 +1,5 @@
 ---
 date: '2010-11-21 04:08:20'
-redirect_from:
-  /2010/11/poetry-by-personal-feelings/
 layout: post
 slug: poetry-by-personal-feelings
 status: publish

@@ -1,7 +1,5 @@
 ---
 date: '2010-03-10 11:04:43'
-redirect_from:
-  /2010/03/a-chinese-poem-by-me/
 layout: post
 slug: a-chinese-poem-by-me
 status: publish

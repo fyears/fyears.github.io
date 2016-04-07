@@ -1,7 +1,5 @@
 ---
 published: true
-redirect_from:
-  /2014/01/my-english-experience/
 layout: post
 title: my English experience
 tags:

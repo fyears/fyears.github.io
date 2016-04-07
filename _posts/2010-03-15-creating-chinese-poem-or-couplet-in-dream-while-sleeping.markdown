@@ -1,7 +1,5 @@
 ---
 date: '2010-03-15 05:14:46'
-redirect_from:
-  /2010/03/creating-chinese-poem-or-couplet-in-dream-while-sleeping/
 layout: post
 slug: creating-chinese-poem-or-couplet-in-dream-while-sleeping
 status: publish

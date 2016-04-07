@@ -1,7 +1,5 @@
 ---
 date: '2011-11-01 16:40:45'
-redirect_from:
-  /2011/11/less-is-more/
 layout: post
 slug: less-is-more
 status: publish

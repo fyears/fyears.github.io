@@ -1,7 +1,5 @@
 ---
 date: '2012-01-24 20:31:53'
-redirect_from:
-  /2012/01/high-quality/
 layout: post
 slug: high-quality
 status: publish

@@ -1,7 +1,5 @@
 ---
 date: '2010-07-22 01:55:20'
-redirect_from:
-  /2010/07/a-memorial-ceremony-for-my-life-in-high-school/
 layout: post
 slug: a-memorial-ceremony-for-my-life-in-high-school
 status: publish

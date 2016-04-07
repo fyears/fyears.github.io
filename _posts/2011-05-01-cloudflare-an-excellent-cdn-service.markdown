@@ -1,7 +1,5 @@
 ---
 date: '2011-05-01 10:27:52'
-redirect_from:
-  /2011/05/cloudflare-an-excellent-cdn-service/
 layout: post
 slug: cloudflare-an-excellent-cdn-service
 status: publish

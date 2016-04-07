@@ -1,7 +1,5 @@
 ---
 date: '2010-12-06 14:54:43'
-redirect_from:
-  /2010/12/to-obtain-a-job/
 layout: post
 slug: to-obtain-a-job
 status: publish

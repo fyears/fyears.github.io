@@ -1,7 +1,5 @@
 ---
 date: '2010-06-16 19:33:30'
-redirect_from:
-  /2010/06/a-colourful-symbol/
 layout: post
 slug: a-colourful-symbol
 status: publish

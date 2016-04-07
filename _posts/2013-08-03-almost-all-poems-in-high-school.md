@@ -1,7 +1,5 @@
 ---
 published: 
-redirect_from:
-  /2013/08/almost-all-poems-in-high-school/
   - true
   - "true"
 layout: post
