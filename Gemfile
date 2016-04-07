@@ -1,6 +1,2 @@
 source 'https://rubygems.org'
-gem 'github-pages'
-gem 'jemoji'
-gem 'jekyll-sitemap'
-gem 'jekyll-redirect-from'
-gem 'jekyll-paginate'
+gem 'github-pages', group: :jekyll_plugins

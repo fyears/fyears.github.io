@@ -10,23 +10,13 @@ title: Fleeting Years
 tagline: "Time goes."
 description: Time goes.
 url: http://www.fyears.org
-baseurl: 
-signoff: fyears
+baseurl:
 disqus_shortname: fyears
 google_analytics:
 
 markdown: kramdown
 highlighter: rouge
 lsi: false
-
-redcarpet:
-  extensions:
-    - with_toc_data
-    - hard_wrap
-    - no_intra_emphasis
-    - tables
-    - fenced_code_blocks
-    - autolink
 
 kramdown:
   input:          GFM
@@ -46,30 +36,7 @@ gems:
   - jekyll-redirect-from
   - jekyll-paginate
 
-prose:
-  rooturl: ""
-  media: 'uploads'
-  metadata:
-    _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
-          type: "text"
-      - name: "categories"
-        field:
-          element: "multiselect"
-          label: "Post Category"
-          placeholder: "Create or choose"
-          alterable: true
-      - name: "tags"
-        field:
-          element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
-          alterable: true
+gist:
+  nonscript: false
+
+repository: fyears/fyears.github.com
