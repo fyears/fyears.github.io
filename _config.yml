@@ -7,10 +7,10 @@ exclude: []
 permalink: /:year/:month/:title.html
 author: fyears
 title: Fleeting Years
-tagline: "Time goes."
+tagline: Time goes.
 description: Time goes.
 url: http://www.fyears.org
-baseurl:
+baseurl: ''
 disqus_shortname: fyears
 google_analytics:
 
@@ -33,10 +33,7 @@ paginate: 10
 gems:
   - jemoji
   - jekyll-sitemap
-  - jekyll-redirect-from
   - jekyll-paginate
 
 gist:
-  nonscript: false
-
-repository: fyears/fyears.github.com
+  noscript: false
