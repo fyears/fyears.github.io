@@ -59,6 +59,14 @@ docker run -d -p 8888:8888 -v 'C:/all projects:/home/jovyan/work' jupyter/datasc
 # abcde... # container id
 ```
 
+According to the [#211](https://github.com/jupyter/docker-stacks/issues/211), if we want to grant the `sudo` privilege, we could add `--user root -e GRANT_SUDO=yes`:
+
+```bash
+docker run -d -p 8888:8888 --user root -e GRANT_SUDO=yes jupyter/datascience-notebook
+```
+
+Attention that in this case we could login the system as `jovyan` and run `sudo apt-get update` **inside** the terminal opened in jupyter notebook in the browser, but if we login the system directly using `docker exec -it`, we would become the user `root`.
+
 After some manipulations,  we could use [`commit`](https://docs.docker.com/engine/reference/commandline/commit/) to save a snapshot of the container.
 
 ```bash
