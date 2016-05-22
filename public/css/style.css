@@ -24,6 +24,7 @@ sidebar {
 
 code, pre {
   font-family: "Source Code Pro", Menlo, Monaco, "Courier New", monospace;
+  color: inherit;
 }
 
 .gist .gist-file {
