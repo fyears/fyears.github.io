@@ -23,12 +23,12 @@ sidebar {
 }
 
 code, pre {
-  font-family: "Source Code Pro", Menlo, Monaco, "Courier New", monospace;
+  font-family: "Source Code Pro", Consolas, Menlo, Monaco, monospace;
   color: inherit;
 }
 
 .gist .gist-file {
-  font-family: "Source Code Pro", Menlo, Monaco, "Courier New", monospace !important;
+  font-family: "Source Code Pro", Consolas, Menlo, Monaco, monospace !important;
 }
 
 
