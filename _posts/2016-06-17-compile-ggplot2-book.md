@@ -51,54 +51,54 @@ Finally, read and enjoy `ggplot2-book/book/ggplot2-book.pdf`. Yay!
 
 ```diff
 diff --git a/Makefile b/Makefile
-index aeae0f5..7de869b 100644
+index 7de869b..aeae0f5 100644
 --- a/Makefile
 +++ b/Makefile
 @@ -9,7 +9,7 @@ book/ggplot2-book.pdf: $(TEXDIR) $(TEXDIR)/ggplot2-book.tex book/CHAPTERS
   cp -R book/springer/* $(TEXDIR)
   cp book/latexmk $(TEXDIR)/
   cp book/latexmkrc $(TEXDIR)/
-- cd $(TEXDIR) && ./latexmk -xelatex -interaction=batchmode ggplot2-book.tex
-+ cd $(TEXDIR) && ./latexmk -pdf -interaction=batchmode ggplot2-book.tex
+- cd $(TEXDIR) && ./latexmk -pdf -interaction=batchmode ggplot2-book.tex
++ cd $(TEXDIR) && ./latexmk -xelatex -interaction=batchmode ggplot2-book.tex
   cp $(TEXDIR)/ggplot2-book.pdf book/ggplot2-book.pdf
 
  book/CHAPTERS: $(TEX_CHAPTERS)
 diff --git a/book/ggplot2-book.tex b/book/ggplot2-book.tex
-index 23fe524..8a683c5 100644
+index 8a683c5..23fe524 100644
 --- a/book/ggplot2-book.tex
 +++ b/book/ggplot2-book.tex
-@@ -2,8 +2,6 @@
+@@ -2,6 +2,8 @@
 
  \usepackage[scaled=0.92,varqu]{inconsolata}
 
--\usepackage[UTF8, hyperref, heading = false, scheme = plain]{ctex}
--
++\usepackage[UTF8, hyperref, heading = false, scheme = plain]{ctex}
++
  \usepackage{float}
  \usepackage{index}
  % index functions separately
 diff --git a/book/render-tex.R b/book/render-tex.R
-index 1aeb052..2dcf03c 100644
+index 2dcf03c..1aeb052 100644
 --- a/book/render-tex.R
 +++ b/book/render-tex.R
-@@ -9,7 +9,6 @@ if (length(path) == 0) {
+@@ -9,6 +9,7 @@ if (length(path) == 0) {
    base <- oldbookdown::tex_chapter()
    base$knitr$opts_knit$width <- 67
    base$pandoc$from <- "markdown"
--  base$pandoc$latex_engine <- "xelatex"
++  base$pandoc$latex_engine <- "xelatex"
 
--  rmarkdown::render(path, base, output_dir = "book/tex", envir = globalenv(), quiet = TRUE, encoding = "UTF-8")
-+  rmarkdown::render(path, base, output_dir = "book/tex", envir = globalenv(), quiet = TRUE)
+-  rmarkdown::render(path, base, output_dir = "book/tex", envir = globalenv(), quiet = TRUE)
++  rmarkdown::render(path, base, output_dir = "book/tex", envir = globalenv(), quiet = TRUE, encoding = "UTF-8")
  }
 diff --git a/ggplot2-book.Rproj b/ggplot2-book.Rproj
-index b6c62ba..a6cad59 100644
+index a6cad59..b6c62ba 100644
 --- a/ggplot2-book.Rproj
 +++ b/ggplot2-book.Rproj
 @@ -10,7 +10,7 @@ NumSpacesForTab: 2
  Encoding: UTF-8
 
  RnwWeave: knitr
--LaTeX: XeLaTeX
-+LaTeX: pdfLaTeX
+-LaTeX: pdfLaTeX
++LaTeX: XeLaTeX
 
  StripTrailingWhitespace: Yes
 ```
