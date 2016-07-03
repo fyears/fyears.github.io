@@ -22,14 +22,14 @@ Given two strings `word1` and `word2`, everytime we are allowed to `insert`, `de
 
 It's not the common solution, using depth-first search for this problem. But it's still worthy of mentioning.
 
-The time complexity is around $O(4^(2n))$ while space complexity is around $O(n)$, also considering the time introduced by `.substring()` here. Even after optimizing `.substring()` the time is still exponential.
+The time complexity is around $O(4^{2n})$ while space complexity is around $O(n)$, also considering the time introduced by `.substring()` here. Even after optimizing `.substring()` the time is still exponential.
 
 ```java
 public class Solution {
     public int minDistance(String word1, String word2) {
         // dfs
 
-        // base case
+        // base cases
         if (word1.length() == 0) {
           return word2.length();
         }
@@ -37,7 +37,7 @@ public class Solution {
           return word1.length();
         }
 
-        // recursive rules
+        // recursion rules
         int nothing = Integer.MAX_VALUE;
         if (word1.charAt(0) == word2.charAt(0)) {
           nothing = minDistance(word1.substring(1), word2.substring(1));
@@ -61,7 +61,7 @@ public class Solution {
     public int minDistance(String word1, String word2) {
         int[][] dp = new int[word1.length() + 1][word2.length() + 1];
 
-        // base rule
+        // base cases
         dp[0][0] = 0;
         for (int i = 1; i <= word1.length(); ++i) {
             dp[i][0] = i;
