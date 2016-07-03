@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: Edit Distance
 tags:
@@ -103,6 +103,77 @@ public class Solution {
         }
 
         return dp[word1.length()][word2.length()];
+    }
+}
+```
+
+Of course, the above code could be shortened, but in fact the same:
+
+```java
+public class Solution {
+    public int minDistance(String word1, String word2) {
+        int[][] dp = new int[word1.length() + 1][word2.length() + 1];
+
+        for (int i = 0; i <= word1.length(); ++i) {
+            for (int j = 0; j <= word2.length(); ++j) {
+                if (i == 0 || j == 0) {
+                    if (i == 0) {
+                        dp[i][j] = j;
+                    } else {
+                        dp[i][j] = i;
+                    }
+                    continue;
+                }
+
+                if (word1.charAt(i - 1) == word2.charAt(j - 1)) {
+                    dp[i][j] = dp[i - 1][j - 1];
+                } else {
+                    dp[i][j] = 1 + Math.min(dp[i - 1][j - 1],
+                        Math.min(dp[i - 1][j], dp[i][j - 1]));
+                }
+            }
+        }
+
+        return dp[word1.length()][word2.length()];
+    }
+}
+```
+
+#### even better Dynamic Programming
+
+Note that we only care about the current and the previous rows of `dp[][]` while filling it. As a result, we only need to keep track of the current and previous rows instead of `n` rows! Then the time is still $O(n^2)$ but the space becomes $O(n)$.
+
+```java
+public class Solution {
+    public int minDistance(String word1, String word2) {
+        int[][] dp = new int[2][word2.length() + 1]; // only 2 rows needed
+
+        int prevRow = 1;
+        int currRow = 0;
+
+        for (int i = 0; i <= word1.length(); ++i) {
+            for (int j = 0; j <= word2.length(); ++j) {
+                prevRow = 1 - i % 2; // toggle between 0 and 1
+                currRow = i % 2;
+
+                if (i == 0 || j == 0) {
+                    if (i == 0) {
+                        dp[currRow][j] = j;
+                    } else {
+                        dp[currRow][j] = i;
+                    }
+                    continue;
+                }
+
+                if (word1.charAt(i - 1) == word2.charAt(j - 1)) {
+                    dp[currRow][j] = dp[prevRow][j - 1];
+                } else {
+                    dp[currRow][j] = 1 + Math.min(dp[prevRow][j - 1], Math.min(dp[prevRow][j], dp[currRow][j - 1]));
+                }
+            }
+        }
+
+        return dp[currRow][word2.length()];
     }
 }
 ```
