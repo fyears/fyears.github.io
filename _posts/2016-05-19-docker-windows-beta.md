@@ -20,7 +20,13 @@ Currently Docker for windows and mac are inside beta, so we need to [register](h
 
 Moreover, we need a Windows 10 pro + with the Hyper-V virtual machine engine enabled. Virtualbox is unusable while using Docker based on Hyper-V. And we may need to configure the Virtual Switch before or after installing Docker, unless we do not have any configuration changed before.
 
-After installation, we get a `MobyLinuxVM` virtual machine in Hyper-V Manager. And also the disk is defaultly located at `C:\Users\Public\Documents\Hyper-V\Virtual hard disks` called `MobyLinuxVM.vhdx`. The virtual disk file is always increasing and could become really huge.
+After installation, we get a `MobyLinuxVM` virtual machine in Hyper-V Manager. And also the disk is defaultly called `MobyLinuxVM.vhdx`, located at:
+
+```
+%PUBLIC%\Documents\Hyper-V\Virtual hard disks
+```
+
+The virtual disk file is always increasing and could become really huge.
 
 ## start Docker and manage file sharing
 
@@ -97,6 +103,23 @@ http://docker.local:8888
 ```
 
 Attention: `localhost` is not the right anwser at least on the Windows! It is another confusion at the first time.
+
+## after multiple `docker pull`
+
+`docker images` may return some `<none>` unused images. As a result, we need to [remove them](https://gist.github.com/ngpestelos/4fc2e31e19f86b9cf10b):
+
+```
+docker rmi $( docker images -q -f dangling=true)
+```
+
+## in the r kernel notebooks
+
+We have to set something to make it working properly:
+
+```R
+options(repos = c(CRAN = "https://cran.rstudio.com")) # CRAN
+Sys.setenv(TAR = '/bin/tar') # tar command
+```
 
 ## End
 
