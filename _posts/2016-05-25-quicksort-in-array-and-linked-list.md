@@ -14,6 +14,8 @@ categories: technology
 
 For the array, the code is kind of trivial. Select the first element as the pivot, then scan and swap the elements less than pivot with the elements at the pointer position, in the end swap the pivot and the last smaller-than-pivot element, so that we obtain the position of the pivot and go on.
 
+Bonus: We could implement the `findKthLargest` using quick select.
+
 ```java
 // Solution.java
 
@@ -25,6 +27,24 @@ public class Solution {
       return;
     }
     quick(array, 0, array.length);
+  }
+  
+  public int findKthLargest(int[] array, int k) {
+    assert(0 <= k && k < array.length);
+    int targetIdx = array.length - k;
+    int start = 0;
+    int end = array.length;
+    while (start + 1 < end) {
+      int i = partition(array, start, end);
+      if (i == targetIdx) {
+        return array[i];
+      } else if (i < targetIdx) {
+        start = i + 1;
+      } else {
+        end = i;
+      }
+    }
+    return array[start];
   }
 
   private void quick(int[] array, int start, int end){
