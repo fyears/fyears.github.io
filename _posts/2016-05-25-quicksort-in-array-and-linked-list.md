@@ -30,7 +30,9 @@ public class Solution {
   }
   
   public int findKthLargest(int[] array, int k) {
-    assert(0 <= k && k < array.length);
+    // f([11,12,13], 1) => 13
+    // f([11,12,13], 2) => 12
+    assert(1 <= k && k <= array.length);
     int targetIdx = array.length - k;
     int start = 0;
     int end = array.length;
