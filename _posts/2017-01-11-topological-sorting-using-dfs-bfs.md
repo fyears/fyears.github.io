@@ -10,7 +10,7 @@ tags:
 categories: technology
 ---
 
-[topological sorting] can be solved using DFS and BFS in asymptotical time complexity $O(V + E)$.
+[topological sorting](https://en.wikipedia.org/wiki/Topological_sorting) can be solved using DFS and BFS in asymptotical time complexity $O(V + E)$.
 
 The problem [LeetCode #210 Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) is an excellent exercise for us to practice the solution to topological sorting.
 
