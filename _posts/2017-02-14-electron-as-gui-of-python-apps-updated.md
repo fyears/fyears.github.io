@@ -126,7 +126,7 @@ As you can see, the Python application is wrapped in a sub folder. In this examp
 
 And the `index.html`, `main.js`, `package.json` and `renderer.js` are modified from [`electron-quick-start`](https://github.com/electron/electron-quick-start).
 
-### Python Part
+### Python part
 
 First of all, since you already have the Python application running, the Python environment should be fine. I strongly recommend developing Python applications in `virtualenv`.
 
@@ -511,7 +511,7 @@ Sure. The solution described here can also be applied to any other programming l
 
 But, unfortunately, Electron is not for mobile applications and it makes little sense even if possible. Please use native GUI in those platforms.
 
-## conclusion and futhuer thinkings
+## conclusion and further thinkings
 
 It's still a promising solution. For drawing interface, we want to use some markup language for declative UI. HTML happens to be one of the best choices, and its companion JS and CSS happen to have one of the most optimized renderers: web browser. That's why I am (so) interested in using web technologies for GUI when possible. A few years before the web browsers were not powerful enough, but the story is different now.
 
