@@ -9,6 +9,10 @@ tags:
 categories: technology
 ---
 
+## important notice
+
+Do **NOT** need to read this post. Please checkout the [updated post](https://www.fyears.org/2017/02/electron-as-gui-of-python-apps-updated.html) for a better solution and a better explanation.
+
 ## what
 
 [Electron](http://electron.atom.io/) (formerly Atom Shell) is a desktop node.js-powered "shell". It is designed by Github and used to build [Atom Editor](https://atom.io/).
