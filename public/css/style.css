@@ -27,6 +27,11 @@ code, pre {
   color: inherit;
 }
 
+pre {
+  white-space: pre;
+  overflow: auto;
+}
+
 .gist .gist-file {
   font-family: "Source Code Pro", Consolas, Menlo, Monaco, monospace !important;
 }
