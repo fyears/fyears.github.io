@@ -29,7 +29,10 @@ code, pre {
 
 pre {
   white-space: pre;
-  overflow: scroll;
+  overflow-x: auto;
+  word-wrap: normal;
+  word-break: normal;
+  -webkit-overflow-scrolling: touch;
 }
 
 .gist .gist-file {
