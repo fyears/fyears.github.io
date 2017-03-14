@@ -33,9 +33,13 @@ Here are some useful links:
 
 - [arXiv.org](http://arxiv.org/): Open access to e-prints in Physics, Mathematics, Computer Science, Quantitative Biology, Quantitative Finance and Statistics.
 - [Be An Actuary](http://www.beanactuary.org/): Be An Actuary.
-- [Deep Learn Book](http://www.deeplearningbook.org/): The Deep Learning Book by Ian Goodfellow and Yoshua Bengio and Aaron Courville.
 - [MxNet](http://mxnet.io/): Flexible and efficient library for Deep Learning.
 - [Kaggle](https://www.kaggle.com/): Your home for Data Science.
 - [Wolfram\|Alpha](https://www.wolframalpha.com/): Computational knowledge engine.
 - [果壳网](http://www.guokr.com/): 科技有意思。
 - [统计之都](http://cos.name/): 中国统计学门户网站，免费统计学服务平台。
+
+\# some books / papers
+
+- [Deep Learn Book](http://www.deeplearningbook.org/) ([中文翻译](https://github.com/exacity/deeplearningbook-chinese)): The Deep Learning Book by Ian Goodfellow and Yoshua Bengio and Aaron Courville.
+- [《机器学习》](https://book.douban.com/subject/26708119/): 周志华教授的中文机器学习教材。
