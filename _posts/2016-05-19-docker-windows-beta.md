@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: Docker for Windows beta setup
+title: Docker for Windows setup
 tags:
   - technology
   - python
@@ -12,11 +12,11 @@ categories: technology
 
 ## what
 
-While developing on Windows, sometimes I need to switch to a *nix-like environment. Right now Docker has released the [Docker for Windows (beta)](https://beta.docker.com/). But the documents are lacking and I did not use Docker too much before, so sometimes I got confused, and here are some notes.
+While developing on Windows, sometimes I need to switch to a *nix-like environment. Right now Docker has released the [Docker for Windows](https://docs.docker.com/docker-for-windows/). But the documents are lacking and I did not use Docker too much before, so sometimes I got confused, and here are some notes.
 
 ## docker installation
 
-Currently Docker for windows and mac are inside beta, so we need to [register](https://beta.docker.com/) and wait for the download link and activation code.
+We can download the [stable](https://download.docker.com/win/stable/InstallDocker.msi) or [edge](https://download.docker.com/win/beta/InstallDocker.msi) version.
 
 Moreover, we need a Windows 10 pro + with the Hyper-V virtual machine engine enabled. Virtualbox is unusable while using Docker based on Hyper-V. And we may need to configure the Virtual Switch before or after installing Docker, unless we do not have any configuration changed before.
 
