@@ -28,6 +28,16 @@ After installation, we get a `MobyLinuxVM` virtual machine in Hyper-V Manager. A
 
 The virtual disk file is always increasing and could become really huge.
 
+## docker mirrors / docker 镜像
+
+[LUG@USTC](https://lug.ustc.edu.cn/wiki/mirrors/help/docker) or [网易蜂巢的 DockerHub 镜像](https://c.163.com/wiki/index.php?title=DockerHub%E9%95%9C%E5%83%8F%E5%8A%A0%E9%80%9F).
+
+```json
+{
+  "registry-mirrors": ["https://docker.mirrors.ustc.edu.cn"]
+}
+```
+
 ## start Docker and manage file sharing
 
 If we want to mount a directory / folder, we need to manage the local **drive(s)** available to the containers. Only after that we can share the directories on that drive to containers. It's confused at first time, but after figuring out the concepts it's easy to understand.
