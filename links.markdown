@@ -42,4 +42,5 @@ Here are some useful links:
 \# some books / papers
 
 - [Deep Learn Book](http://www.deeplearningbook.org/) ([中文翻译](https://github.com/exacity/deeplearningbook-chinese)): The Deep Learning Book by Ian Goodfellow and Yoshua Bengio and Aaron Courville.
+- [Understanding Random Forests: From Theory to Practice](https://arxiv.org/abs/1407.7502): A deep discussion on Random Forest.
 - [《机器学习》](https://book.douban.com/subject/26708119/): 周志华教授的中文机器学习教材。
