@@ -7,19 +7,19 @@
 /* font */
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, "Source Han Sans", "Noto Sans CJK", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Source Han Sans SC", "Source Han Sans CN", "Noto Sans CJK SC", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Helvetica, Arial, "Source Han Sans", "Noto Sans CJK", sans-serif;
+  font-family: Helvetica, Arial, "Source Han Sans SC", "Source Han Sans CN", "Noto Sans CJK SC", sans-serif;
 }
 
 sidebar {
-  font-family: Helvetica, Arial, "Source Han Sans", "Noto Sans CJK", sans-serif;
+  font-family: Helvetica, Arial, "Source Han Sans SC", "Source Han Sans CN", "Noto Sans CJK SC", sans-serif;
 }
 
 .pagination {
-  font-family: Helvetica, Arial, "Source Han Sans", "Noto Sans CJK", sans-serif;
+  font-family: Helvetica, Arial, "Source Han Sans SC", "Source Han Sans CN", "Noto Sans CJK SC", sans-serif;
 }
 
 code, pre {
