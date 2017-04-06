@@ -32,7 +32,7 @@ Source Han 系列在 GitHub 下载：[Source Han Sans](https://github.com/adobe-
 
 如果是 macOS 10.8 等，无脑安装 Super OTC（实测 Windows 不能）；如果是 Windows 10 Anniversary Update 或其它，尝试安装 OTCs；实在不行，选择 Language-specific OTFs。Ubuntu 下应该默认有了 Noto Sans CJK，可以预计以后能 `apt-get` Noto Serif CJK。
 
-## CSS 中使用
+## CSS 中使用思源黑体和思源宋体
 
 [Google Fonts Early Access](https://fonts.google.com/earlyaccess) 提供了 [Noto Sans CJK](https://fonts.google.com/earlyaccess#Noto+Sans+SC) 的免费使用，可预见的未来应该会加上 Noto Serif CJK。**但是这并不是很有用**，因为需要下载整个字形的字体。如果真有这种 web font 的需要，Typekit 应该是更好的选择。
 
@@ -55,9 +55,9 @@ body {
 
 实际上，更完整的，考虑到各个系统的中文 CSS 设置可以参照[`fonts.css` 中文字体解决方案](https://zenozeng.github.io/fonts.css/)。
 
-## $\LaTeX$ 中使用
+## $\LaTeX$ 中使用思源黑体和思源宋体
 
-$\LaTeX$ 的中文设置强烈[推荐](https://www.fyears.org/2015/06/latex-config-chinese.html) `xelatex` + `ctex` 的组合。尽管如此，这也是一个天坑。🙄
+$\LaTeX$ 的中文设置强烈[推荐](https://www.fyears.org/2015/06/latex-config-chinese.html) `xelatex` + `ctex` 的组合。 ~~尽管如此，这也是一个天坑。~~ 🙄
 
 首先更新字体缓存：
 
@@ -66,13 +66,18 @@ $\LaTeX$ 的中文设置强烈[推荐](https://www.fyears.org/2015/06/latex-conf
 fc-list :lang=zh
 ```
 
-然后设置各种字体：
+然后设置各种字体。我不是很懂 `\setCJKfamilyfont` 到底是否需要设置。例子 `doc.tex` 如下：
 
 ```latex
 %!TEX program = xelatex
+
 \documentclass[UTF8]{ctexart}
-\setCJKmainfont{Noto Serif CJK SC}
+
+\setCJKmainfont[BoldFont = Noto Sans CJK SC]{Noto Serif CJK SC}
 \setCJKsansfont{Noto Sans CJK SC}
+\setCJKfamilyfont{zhsong}{Noto Serif CJK SC}
+\setCJKfamilyfont{zhhei}{Noto Sans CJK SC}
+
 \begin{document}
 \section{这是一个章节标题}
 这个文档有中文版式和自动的字体配置。
@@ -84,4 +89,3 @@ fc-list :lang=zh
 ```bash
 xelatex doc.tex
 ```
-
