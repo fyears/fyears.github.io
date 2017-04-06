@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: enable "Open PowerShell window here" in right click context menu
+title: 'enable "Open PowerShell window here" in right click context menu'
 tags:
   - technology
 categories: technology
