@@ -44,7 +44,7 @@ comments: false
       {% endif %}
       <li class="listing-item">
         <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ site.baseurl }}{{ post.url }}" target="_blank" title="{{ post.title }}">{{ post.title }}</a>
+        <a href="{{ site.baseurl }}{{ post.url }}" target="_blank" title="{{ post.title | xml_escape }}">{{ post.title }}</a>
       </li>
     {% endfor %}
     </ul>
@@ -54,16 +54,16 @@ comments: false
 <section id="posts-in-tags">
   <div id="tag-cloud">
   {% for tag in site.tags %}
-    <a href="#{{ tag[0] }}" id="tag-cloud-button" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
+    <a href="#{{ tag[0] | xml_escape }}" id="tag-cloud-button" title="{{ tag[0] | xml_escape }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
   {% endfor %}
   </div>
   <ul class="listing">
   {% for tag in site.tags %}
-    <li class="listing-seperator" id="{{ tag[0] }}">{{ tag[0] }}</li>
+    <li class="listing-seperator" id="{{ tag[0] | xml_escape }}">{{ tag[0] }}</li>
   {% for post in tag[1] %}
     <li class="listing-item">
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ site.baseurl }}{{ post.url }}" target="_blank" title="{{ post.title }}">{{ post.title }}</a>
+    <a href="{{ site.baseurl }}{{ post.url }}" target="_blank" title="{{ post.title | xml_escape }}">{{ post.title }}</a>
     </li>
   {% endfor %}
   {% endfor %}
