@@ -1,7 +1,6 @@
 ---
 published: true
 layout: page
-require_tag_cloud: true
 title: Archive
 comments: false
 ---
@@ -23,6 +22,7 @@ comments: false
     display: none;
   }
 </style>
+
 
 <section id="archive-nav">
   <span id="select-all">
@@ -69,3 +69,37 @@ comments: false
   {% endfor %}
   </ul>
 </section>
+
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/public/js/jquery.tagcloud.js"></script>
+<script language="javascript">
+  /*
+   * The code is modified from the source
+   * of http://yihui.name/en/tags/.
+   */
+  $.fn.tagcloud.defaults = {
+    size: {start: 1, end: 1, unit: 'em'},
+    color: {start: '#e6e6e6', end: '#000000'}
+  };
+  $(function () {
+    $('#tag-cloud a').tagcloud();
+  });
+
+  $('#select-all-button').click(function(event){
+    //event.preventDefault();
+    $('#select-all-button').css('text-decoration', 'underline');
+    $('#all-posts').show();
+    $('#select-tag-button').css('text-decoration', 'none');
+    $('#tag-cloud').hide();
+    $('#posts-in-tags').hide();
+  });
+  $('#select-tag-button').click(function(event){
+    //event.preventDefault();
+    $('#select-all-button').css('text-decoration', 'none');
+    $('#all-posts').hide();
+    $('#select-tag-button').css('text-decoration', 'underline');
+    $('#tag-cloud').show();
+    $('#posts-in-tags').show();
+  });
+</script>
