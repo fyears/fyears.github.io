@@ -26,11 +26,13 @@ Noto 是 Google 贴牌的字体族，其中的中日韩字体部分，由 Google
 
 ## 下载
 
-**推荐** Noto CJK 系列在 Google 网站下载：[Noto CJK](https://www.google.com/get/noto/help/cjk/) 或者 GitHub 上的 [`googlei18n/noto-cjk`](https://github.com/googlei18n/noto-cjk)。可以参阅 [Guidelines for Using Noto](https://www.google.com/get/noto/help/guidelines/)。
+1. 如果是 macOS 10.8 等，无脑安装 Super OTC（实测 Windows 不能）；如果是 Windows 10 Anniversary Update 或更加新的，尝试安装 OTCs；实在不行，选择 Language-specific OTFs。
 
-Source Han 系列在 GitHub 下载：[Source Han Sans](https://github.com/adobe-fonts/source-han-sans/tree/release)，[Source Han Serif](https://github.com/adobe-fonts/source-han-serif/tree/release/)（都是 `release` branch 之下）。
+    **推荐** Noto CJK 系列在 Google 网站下载：[Noto CJK](https://www.google.com/get/noto/help/cjk/) 或者 GitHub 上的 [`googlei18n/noto-cjk`](https://github.com/googlei18n/noto-cjk)。可以参阅 [Guidelines for Using Noto](https://www.google.com/get/noto/help/guidelines/)。
 
-如果是 macOS 10.8 等，无脑安装 Super OTC（实测 Windows 不能）；如果是 Windows 10 Anniversary Update 或其它，尝试安装 OTCs；实在不行，选择 Language-specific OTFs。Ubuntu 下应该默认有了 Noto Sans CJK，可以预计以后能 `apt-get` Noto Serif CJK。
+    Source Han 系列在 GitHub 下载：[Source Han Sans](https://github.com/adobe-fonts/source-han-sans/tree/release)，[Source Han Serif](https://github.com/adobe-fonts/source-han-serif/tree/release/)（都是 `release` branch 之下）。
+
+2. Debian / Ubuntu 下直接 `sudo apt-get install fonts-noto-cjk` 即可。如果 Linux 下要手动安装的话，安装 Super OTC 即可。
 
 ## CSS 中使用思源黑体和思源宋体
 
