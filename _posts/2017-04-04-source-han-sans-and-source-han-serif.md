@@ -94,7 +94,7 @@ xelatex doc.tex
 
 ## 效果
 
-来一段林肯的《Gettysburg Address 葛底斯堡演说》中文版吧，用思源宋体展示：
+来一段林肯的《Gettysburg Address 葛底斯堡演说》中文版吧，用思源宋体展示，摘自[维基百科](https://zh.wikipedia.org/wiki/%E8%93%8B%E8%8C%B2%E5%A0%A1%E6%BC%94%E8%AA%AA)：
 
 <blockquote style="font-family: Noto Serif CJK SC, Source Han Serif SC;">
 <p>先人立国已逾八十有七载。立国以自由，众生平等乃国本也。</p>
