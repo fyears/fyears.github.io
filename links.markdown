@@ -39,9 +39,10 @@ Here are some useful links:
 - [果壳网](http://www.guokr.com/): 科技有意思。
 - [统计之都](http://cos.name/): 中国统计学门户网站，免费统计学服务平台。
 
-\# some books / papers
+\# some books / papers /posts
 
 - [Deep Learn Book](http://www.deeplearningbook.org/) ([中文翻译](https://github.com/exacity/deeplearningbook-chinese)): The Deep Learning Book by Ian Goodfellow and Yoshua Bengio and Aaron Courville.
 - [Understanding Random Forests: From Theory to Practice](https://arxiv.org/abs/1407.7502): A deep discussion on Random Forest.
 - [《机器学习》](https://book.douban.com/subject/26708119/): 周志华教授的中文机器学习教材。
 - [R in Action, Second Edition](https://www.manning.com/books/r-in-action-second-edition) ([《R 语言实战（第2版）》](https://book.douban.com/subject/26785199/)): Data analysis and graphics with R.
+- [word2Vec tutorial 1](http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/) and [word2vec tutorial 2](http://mccormickml.com/2017/01/11/word2vec-tutorial-part-2-negative-sampling/): cleanest tutorial for word2vec I've seen, by Chris McCormick.
