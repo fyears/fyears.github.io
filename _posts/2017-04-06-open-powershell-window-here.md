@@ -25,6 +25,8 @@ In short:
 
 After doing these, right click without pressing "Shift" on desktop or blank space in folder in Explorer, we should see the desired "Open PowerShell window here".
 
+Bonus: Similarly, `cmd` also have the similar keys. If we also want to show "Open command window here" with shift + right click, we just need to rename `HideBasedOnVelocityId` to `ShowBasedOnVelocityId`. If we want to show it without pressing shift key, delete "Extended" key as well.
+
 Some other useful links:
 
 - [tutorial on TenForums](https://www.tenforums.com/tutorials/60175-open-powershell-window-here-context-menu-add-windows-10-a.html)
