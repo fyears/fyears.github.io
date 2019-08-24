@@ -18,7 +18,7 @@ Some important notes about DNS settings:
 - [`MX` record](https://yandex.com/support/domain/set-mail/mx.html): `MX`, `@`, `mx.yandex.net.`, `10`
 - [`SPF` record](https://yandex.com/support/domain/set-mail/records.html): `TXT`, `@`, `v=spf1 redirect=_spf.yandex.net`
 - [`CNAME` record](https://yandex.com/support/domain/set-mail/cname.html): `CNAME`, `mail`, `domain.mail.yandex.net.`
-- [`DKIM` record](https://yandex.com/support/domain/set-mail/dkim.html): To find this record, go to the domain page and click in the right column of the "DKIM digital signature" section on the Display record content link.
+- [`DKIM` record](https://yandex.com/support/domain/set-mail/dkim.html): To find this record, go to the Portal @ Yandex.Connect page, then go to "Email" tab, then go to "DKIM signatures" section. You need to set up a DNS TXT record with `mail._domainkey.example.com` as key and `v=DKIM1; k=rsa; t=s; p=...` (a long text) as value.
 
 Users should be able to log in the domain email via `https://mail.yandex.com/for/example.com` or `http://mail.example.com/` now.
 
