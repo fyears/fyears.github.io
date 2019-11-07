@@ -39,5 +39,5 @@ After clean installation, the most important thing is using other computer to do
 
 Then, Windows should be able to automatically download the remaining drivers once connected to Internet.
 
-But we could also download some missing drivers from [Lenovo official website](http://support.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x1-carbon-type-20fb-20fc/?beta=false). For example, Hotkey Features Integration for Windows 10.
+But we could also download some missing drivers from [Lenovo official website](https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x1-carbon-type-20fb-20fc). For example, Hotkey Features Integration for Windows 10.
 
