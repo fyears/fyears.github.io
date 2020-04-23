@@ -31,7 +31,7 @@ This is the quick note before and after installing Windows 10 pro.
 - VS Code: must have, download [user installer 64 bit](https://code.visualstudio.com/docs/?dv=win64user) from official web site
 - mpv: must have, download and run `\installer\mpv-install.bat`
 - Java:
-  - download [OpenJDK](https://openjdk.java.net/)
+  - download OpenJDK from [Amazon Corretto](https://aws.amazon.com/corretto/) (`.zip` for Windows) or [AdoptOpenJDK](https://adoptopenjdk.net/). As of 2020, OpenJDK 8 or 11 are most widely used.
   - see [here](https://stackoverflow.com/questions/52511778/) to set up `%JAVA_HOME%` as the path without `\bin` subfolder, and add `%JAVA_HOME%\bin` to `%PATH%`.
 - pdf: [Sumatra PDF](https://www.sumatrapdfreader.org/)
 - aria2c: remember to set `%USERPROFILE%\.aria2\aria2.conf`
