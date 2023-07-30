@@ -26,36 +26,73 @@ Noto 是 Google 贴牌的字体族，其中的中日韩字体部分，由 Google
 
 ## 下载
 
-1. 如果是 macOS 10.8 等，无脑安装 Super OTC（实测 Windows 不能）；如果是 Windows 10 Anniversary Update 或更加新的，尝试安装 OTCs；实在不行，选择 Language-specific OTFs。
+1. 如果是 macOS 10.8 或 Windows 10 Anniversary Update 或更加新的，直接无脑安装 Super OTC；实在不行，选择 Language-specific OTFs。
 
     **推荐** Noto CJK 系列在 Google 网站下载：[Noto CJK](https://www.google.com/get/noto/help/cjk/) 或者 GitHub 上的 [`googlei18n/noto-cjk`](https://github.com/googlei18n/noto-cjk)。可以参阅 [Guidelines for Using Noto](https://www.google.com/get/noto/help/guidelines/)。
 
     Source Han 系列在 GitHub 下载：[Source Han Sans](https://github.com/adobe-fonts/source-han-sans/tree/release)，[Source Han Serif](https://github.com/adobe-fonts/source-han-serif/tree/release/)（都是 `release` branch 之下）。
 
-2. Debian / Ubuntu 下直接 `sudo apt-get install fonts-noto-cjk` 即可。如果 Linux 下要手动安装的话，安装 Super OTC 即可。
+2. Debian / Ubuntu 下直接 `sudo apt-get install fonts-noto-cjk fonts-noto-cjk-extra` 即可。如果 Linux 下要手动安装的话，安装 Super OTC 即可。
 
 ## CSS 中使用思源黑体和思源宋体
 
-[Google Fonts Early Access](https://fonts.google.com/earlyaccess) 提供了 [Noto Sans CJK](https://fonts.google.com/earlyaccess#Noto+Sans+SC) 的免费使用，可预见的未来应该会加上 Noto Serif CJK。**但是这并不是很有用**，因为需要下载整个字形的字体。如果真有这种 web font 的需要，Typekit 应该是更好的选择。
+
+### 在线版
+
+Google Fonts 提供了每个语言的在线版本，以下是简体中文为例的链接： [Noto Sans (CJK) SC](https://fonts.google.com/noto/specimen/Noto+Sans+SC) 和 [Noto Serif (CJK) SC](https://fonts.google.com/noto/specimen/Noto+Serif+SC)；压缩后分别是 75MB 左右（各含 7 个字重）。此外注意的是，引入在线 Google Fonts 的 css 后，css 里引用应为 `Noto Sans SC` 和 `Noto Serif SC`，中间并没有 `CJK` 标记。此外，Google Fonts 似乎需要下载整个字形的字体，太大了；如果真有这种 web font 的需要，Typekit 应该是更好的选择；注意 Typekit 是 Adobe 系的，css 引用又不一样。
+
+```css
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
+
+body {
+  font-family: 'Noto Sans SC', 'source-han-sans-simplified-c', sans-serif;
+}
+```
+
+```css
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap');
+
+body {
+  font-family: 'Noto Serif SC', 'source-han-serif-sc', serif;
+}
+```
+
+### 本地安装版
 
 对于设置 CSS，如果是安装到电脑上的字体，并且需要显示的是简体中文：
 
 ```css
-/*
-@import url(https://fonts.googleapis.com/earlyaccess/notosanssc.css);
-*/
-
 body {
-  font-family: Noto Sans CJK SC, Source Han Sans SC, Source Han Sans CN, sans-serif;
+  font-family: 'Noto Sans CJK SC', 'Noto Sans CJK', 'Source Han Sans SC', 'Source Han Sans CN', 'Source Han Sans', sans-serif;
 }
 ```
+
 ```css
 body {
-  font-family: Noto Serif CJK SC, Source Han Serif SC, Source Han Serif CN, serif;
+  font-family: 'Noto Serif CJK SC', 'Noto Serif CJK', 'Source Han Serif SC', 'Source Han Serif CN', 'Source Han Serif', serif;
 }
 ```
 
-实际上，更完整的，考虑到各个系统的中文 CSS 设置可以参照[`fonts.css` 中文字体解决方案](https://zenozeng.github.io/fonts.css/)。
+实际上，考虑到各个系统的中文 CSS 设置可以参照[`fonts.css` 中文字体解决方案](https://zenozeng.github.io/fonts.css/)。
+
+Bonus: [知乎](https://zhihu.com)网站的字体 css 是 `font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;` ，使用方式与本文所述大同小异。
+
+### 混合版
+
+也许，这才是适应所有字体名称变种的版本？？？
+
+```css
+body {
+  font-family: 'Noto Sans CJK SC', 'Noto Sans CJK', 'Source Han Sans SC', 'Source Han Sans CN', 'Source Han Sans', 'Noto Sans SC', 'source-han-sans-simplified-c',sans-serif;
+}
+```
+
+```css
+body {
+  font-family: 'Noto Serif CJK SC', 'Noto Serif CJK', 'Source Han Serif SC', 'Source Han Serif CN', 'Source Han Serif', 'Noto Serif SC', 'source-han-serif-sc', serif;
+}
+```
+
 
 ## $\LaTeX$ 中使用思源黑体和思源宋体
 
@@ -94,9 +131,12 @@ xelatex doc.tex
 
 ## 效果
 
-来一段林肯的《Gettysburg Address 葛底斯堡演说》中文版吧，用思源宋体展示，摘自[维基百科](https://zh.wikipedia.org/wiki/%E8%93%8B%E8%8C%B2%E5%A0%A1%E6%BC%94%E8%AA%AA)：
+来一段林肯的《Gettysburg Address 葛底斯堡演说》中文版吧，用思源宋体展示（基于 Google Fonts 加载），摘自[维基百科](https://zh.wikipedia.org/wiki/%E8%93%8B%E8%8C%B2%E5%A0%A1%E6%BC%94%E8%AA%AA)：
 
-<blockquote style="font-family: Noto Serif CJK SC, Source Han Serif SC;">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap');
+</style>
+<blockquote style="font-family: 'Noto Serif CJK SC', 'Noto Serif CJK', 'Source Han Serif SC', 'Source Han Serif CN', 'Source Han Serif', 'Noto Serif SC', 'source-han-serif-sc';">
 <p>先人立国已逾八十有七载。立国以自由，众生平等乃国本也。</p>
 <p>今逢内争，欲明以此为本之国能永存否。今聚战场，欲以方寸之地奉我勇士。勇士者，为国捐躯舍生取义，奉以此地安之，义举也。</p>
 <p>然复往广推，此地难奉，遑论祭或圣之。众勇士，或存或亡，皆战于此，已奉祭于斯，我等绵力不能增其圣以毫厘，或减以寸分。吾等今日所言，世人将漠之，记忆必短；然勇士事迹，量不致或忘丝毫。吾尚存者，当担所余大任；承烈士遗志，倍吾力于未竟之业；神佑吾国，当获自由之新生；民有、民治、民享之政必永续于世。</p>
